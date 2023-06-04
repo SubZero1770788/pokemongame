@@ -1,0 +1,19 @@
+<section id="pokemonEncounter" *ngIf="currentPokemon && !messageFrom">
+        <div id="gridSection">
+            <b id="pokemonName">{{currentPokemon.name}} </b><b id="lvl"> lvl. {{currentPokemon.level}}</b> 
+            <div class="main" [style.backgroundColor]="type1color"> {{currentPokemon.pokemonType1Name}} </div>
+            <div class="mainSecond" *ngIf="currentPokemon.pokemonType2Name" [style.backgroundColor]="type2color"> {{currentPokemon.pokemonType2Name}}</div>
+        </div>
+    <img src="{{currentPokemon.photoUrl}}" alt="">
+    <div id="stats">
+        <p>HP: {{currentPokemon.hp}} SPEED: {{currentPokemon.speed}}</p>
+        <p>SPECIAL ATTACK:{{currentPokemon.specialAttack}} ATTACK: {{currentPokemon.attack}}</p>
+        <p>SPECIAL DEFENSE:{{currentPokemon.specialDefense}} DEFENSE: {{currentPokemon.defense}}</p>
+    </div>
+</section>
+<section *ngIf="messageFrom">
+    <p id="information" [style.backgroundColor]="color">{{messageFrom.message}}</p>
+</section>
+
+<button id="utility" (click)="continue()">Continue</button>
+<button id="danger" (click)="return()" routerLink="../wild">Return</button>

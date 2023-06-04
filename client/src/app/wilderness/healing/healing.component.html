@@ -1,0 +1,20 @@
+<section *ngIf="itemMessage" id="messageSec">
+  <div [style.backgroundColor]="color" class="information">{{itemMessage.message}}</div>
+</section>
+<section id="pokemons" *ngIf="!itemMessage">
+  <ul>
+    <li *ngFor="let p of userPokemons; let i = index">
+      <div id="stats">
+        <div id="name">{{p.name}}</div> 
+        <div *ngIf="p.id == _pokeS.health[2] && p.id == this._battS.pokemonBattle![1].id" id="pokHp">HP: {{_pokeS.health[1]}} / {{p.hp}}</div> 
+        <div *ngIf="p.id != _pokeS.health[2]" id="pokHp">HP: {{p.hp}}</div> 
+      </div>
+      <button (click)="healPokemon(p.id!)" class="pokemon">
+        <img src="{{ p.photoUrl }}" alt="" />
+      </button>
+    </li>
+  </ul>
+</section>
+<section>
+  <button (click)="stopHealing()" id="utility">return</button>
+</section>

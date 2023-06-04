@@ -1,0 +1,23 @@
+<section id="navbar">
+    <section id="innerNav">
+        <ul *ngIf="!(_accServ.currentUsersrc$ | async)" class="Menu">
+            <button class="special" id="registerbutton" routerLink="../register">Register</button>
+            <form [formGroup]="loginForm" (ngSubmit)="toggleLogin()" autocomplete="off">
+                <button class="utility" type="submit">Login</button>
+                <input formControlName="Password"  type="password" placeholder="password">
+                <input formControlName="UserName"  type="text" placeholder="login">
+            </form>
+        </ul>
+        <ul *ngIf="_accServ.currentUsersrc$ | async" id="leftMenu">
+            <button routerLink="../pokedex">Pokedex</button>
+            <button routerLink="../ranking">Ranking</button>
+            <button routerLink="../items">Shop</button>
+            <button routerLink="../wild">Wild</button>
+        </ul>
+        <ul *ngIf="_accServ.currentUsersrc$ | async" class="Menu">
+            <button id="logout" class="special" routerLink="" (click)="logout()">Logout</button>
+            <button class="another" (click)="allPokemons()">Pokemons</button>
+        </ul>
+        <div *ngIf="_accServ.currentUsersrc$ | async" id="userPoints">{{points}}</div>
+    </section>
+</section>

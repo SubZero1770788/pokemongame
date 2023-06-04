@@ -1,0 +1,203 @@
+[
+    {
+        "Id":1,
+        "UserId":1,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 3
+    },
+    {
+        "Id":2,
+        "UserId":1,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 12
+    },
+    {
+        "Id":3,
+        "UserId":1,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 44
+    },
+    {
+        "Id":4,
+        "UserId":1,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 71
+    },
+    {
+        "Id":5,
+        "UserId":1,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 113
+    },
+    {
+        "Id":6,
+        "UserId":2,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 3
+    },
+    {
+        "Id":7,
+        "UserId":2,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 12
+    },
+    {
+        "Id":8,
+        "UserId":2,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 44
+    },
+    {
+        "Id":9,
+        "UserId":2,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 71
+    },
+    {
+        "Id":10,
+        "UserId":2,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 113
+    },
+    {
+        "Id":11,
+        "UserId":3,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 3
+    },
+    {
+        "Id":12,
+        "UserId":3,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 12
+    },
+    {
+        "Id":13,
+        "UserId":3,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 44
+    },
+    {
+        "Id":14,
+        "UserId":3,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 71
+    },
+    {
+        "Id":15,
+        "UserId":3,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 113
+    },
+    {
+        "Id":16,
+        "UserId":4,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 3
+    },
+    {
+        "Id":17,
+        "UserId":4,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 12
+    },
+    {
+        "Id":18,
+        "UserId":4,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 44
+    },
+    {
+        "Id":19,
+        "UserId":4,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 71
+    },
+    {
+        "Id":20,
+        "UserId":4,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 113
+    },
+    {
+        "Id":21,
+        "UserId":5,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 3
+    },
+    {
+        "Id":22,
+        "UserId":5,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 12
+    },
+    {
+        "Id":23,
+        "UserId":5,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 44
+    },
+    {
+        "Id":24,
+        "UserId":5,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 71
+    },
+    {
+        "Id":25,
+        "UserId":5,
+        "CurrentAttacks": [],
+        "IsInTeam": true,
+        "lvl":5,
+        "PokemonId": 113
+    }
+
+]

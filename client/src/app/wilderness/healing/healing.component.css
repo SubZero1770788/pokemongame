@@ -1,0 +1,305 @@
+img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#utility{
+    background-color: rgb(145,145,220);
+    padding: 12px;
+    margin: 12px;
+    font-size: 15px;
+    color: rgb(255,255,255);
+    border-radius: 15% /50%;
+}
+
+#messageSec
+{
+    width:90%;
+    margin:auto;
+}
+
+.information
+{
+    color: rgb(255,255,255);
+    font-size: 22px;
+    height: 40px;
+    border: none;
+    border-radius: 5% /200%;
+    background-color: rgb(155, 220, 155);
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+#utility:hover
+{
+    color: rgb(120,120,120);
+}
+
+#utility:active
+{
+    color: rgb(125,125,200);
+}
+
+button{
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+#pokemons
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.pokemon
+{
+    width: 200px;
+    height: 200px;
+    box-shadow: -2px -2px -2px -2px rgb(240,240,240);
+    position: relative;
+    bottom: 50px;
+}
+
+.pokemon:hover
+{
+    opacity: 0.1;
+}
+
+li
+{
+    float: left;
+    margin: 15px;
+}
+
+ul{
+    margin: auto;
+    list-style-type: none;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-items: center;
+    left: 5vw;
+}
+
+#pokHp
+{
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto !important;
+}
+
+#name
+{
+    font-size: 22px;
+}
+
+@media only screen and (min-width:1650px)
+{
+
+}
+
+@media only screen and (max-width:1250px)
+{
+    li
+    {
+        float: left;
+        margin: 12px;
+    }
+
+    img{
+        width: 160px;
+        height: 160px;
+        margin: auto;
+    }
+
+    .pokemon
+    {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    #name
+    {
+        font-size: 18px;
+    }
+
+    #stats
+    {
+        font-size: 14px;
+    }
+
+    #utility
+    {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:1080px)
+{
+    li
+    {
+        float: left;
+        margin: 10px;
+    }
+
+    img{
+        width: 140px;
+        height: 140px;
+        margin: auto;
+    }
+
+    .pokemon
+    {
+        width: 140px;
+        height: 140px;
+        position: relative;
+        bottom: 36px;
+    }
+
+    #name
+    {
+        font-size: 16px;
+    }
+
+    #stats
+    {
+        font-size: 12px;
+    }
+
+    #utility
+    {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:900px)
+{
+    li
+    {
+        float: left;
+        margin: 8px;
+    }
+
+    img{
+        width: 120px;
+        height: 120px;
+        margin: auto;
+    }
+
+    .pokemon
+    {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        bottom: 36px;
+    }
+
+    #name
+    {
+        font-size: 14px;
+    }
+
+    #stats
+    {
+        font-size: 10px;
+    }
+
+    #utility
+    {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:700px)
+{
+    li
+    {
+        float: left;
+        margin: 4px;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .pokemon
+    {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        bottom: 34px;
+    }
+
+    #name
+    {
+        font-size: 12px;
+    }
+
+    #stats
+    {
+        font-size: 8px;
+    }
+
+    #utility
+    {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:570px)
+{
+    li
+    {
+        float: left;
+        margin: 4px;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .pokemon
+    {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        bottom: 33px;
+    }
+
+    #name
+    {
+        font-size: 12px;
+    }
+
+    #stats
+    {
+        font-size: 8px;
+    }
+
+    #utility
+    {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:470px)
+{
+    li
+    {
+        height: 100px;
+    }
+
+    #pokemons
+    {
+        position: relative;
+        top: -40px;
+    }
+}

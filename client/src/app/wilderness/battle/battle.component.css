@@ -1,0 +1,744 @@
+#enemy{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    float: right;
+    text-align: right;
+    width:100%;
+    height:200px;
+}
+
+#user{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    float: left;
+    text-align: left;
+    width:100%;
+    height:200px;
+}
+
+.stats{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main{
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: fit-content(30%) 10% 10% 50%;
+    margin-bottom:1vw;
+}
+
+.messageButtons{
+    border-radius: none;
+}
+
+.hp{
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    background-color: rgb(240, 160, 160);
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+#hpEnemyNumber, #hpUserNumber{
+    overflow: hidden;
+    z-index: 1;
+    background-color: rgb(200, 80, 80);
+    border: none;
+    width: 100%;
+    height: inherit;
+    float:left;
+}
+
+button{
+    border-radius: 15% /50%; 
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+.attack
+{
+    position: relative;
+    top:10px;
+    left:20px;
+    width: 400px;
+    height: 80px;
+    border-radius: 15% / 150%;
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+    box-shadow: 2px 2px 2px 2px rgb(100, 80, 80);
+    color: rgb(255,255,255);
+}
+
+#utility, #danger
+{
+    position: relative;
+    top: 20px;
+}
+
+#danger:hover
+{
+    color: rgb(120,120,120);
+}
+
+#utility:hover
+{
+    color:rgb(120,120,120);
+}
+
+#danger:active
+{
+    background-color: rgb(200,125,125);
+}
+
+#utility:active
+{
+    background-color: rgb(125,125,200);
+}
+
+#danger{
+    font-weight: bold;
+    padding: 12px;
+    margin: 12px;
+    font-size: 15px;
+    background-color: rgb(220,145,145);
+    color: rgb(255,255,255);
+    border-radius: 15% / 50%;
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+#utility{
+    font-weight: bold;
+    padding: 12px;
+    margin: 12px;
+    font-size: 15px;
+    background-color: rgb(145,145,220);
+    color: rgb(255,255,255);
+    border-radius: 15% / 50%;
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: grid;
+    height:220px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-radius: 15% / 150%;
+    background-color: rgb(140, 100, 100);
+    box-shadow: 2px 2px 2px 2px rgb(200,200,200);
+}
+
+#pokemons
+{
+    display: grid;
+    grid-template-rows: 200px 200px;
+}
+
+img
+{
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 2px 2px rgb(240,240,240);
+}
+
+#userOne
+{
+    position: relative;
+    bottom:6px;
+}
+
+.information
+{
+    color: rgb(255,255,255);
+    font-size: 22px;
+    height: 40px;
+    border: none;
+    border-radius: 5% /200%;
+    background-color: rgb(155, 220, 155);
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+    line-height: 1.7;
+}
+
+.pokemonType, .pokemonSecondType
+{
+    position: relative;
+    left:1vw;
+    bottom: 4px;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border-radius: 25% / 50%;
+    box-shadow: 2px 2px 2px 2px rgb(240,240,240);
+}
+
+.pokemonSecondType
+{
+    position: relative;
+    left: 3vw;
+}
+
+@media only screen and (max-width:1500px)
+{
+    .information
+    {
+        width: 50vw;
+        margin: auto;
+        border-radius: 0;
+    }
+    
+    ul
+    {
+        width: 55vw;
+        margin: auto;
+    }
+
+    .attack
+    {
+        width: 22vw;
+    }
+
+    .hp
+    {
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    #pokemons
+    {
+        width:90%;
+    }
+
+    #user .stats
+    {
+        float: right;
+    }
+    
+    #enemy
+    {
+        grid-template-columns: 70% 30%;
+    }
+
+    #userContent
+    {
+        margin-left: 0px;
+    }
+
+    #user
+    {
+        grid-template-columns: 30% 70%;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 15px;
+    }
+
+    .main
+    {
+        font-size: 21.8px;
+    }
+
+}
+
+@media only screen and (max-width:1320px)
+{
+    ul
+    {
+        width: 55vw;
+        margin: auto;
+    }
+
+    .attack
+    {
+        width: 22vw;
+    }
+
+    .hp
+    {
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    #pokemons
+    {
+        width:90%;
+    }
+
+    #user .stats
+    {
+        float: right;
+    }
+    
+    #enemy
+    {
+        grid-template-columns: 70% 30%;
+    }
+
+    #userContent
+    {
+        margin-left: 0px;
+    }
+
+    #user
+    {
+        grid-template-columns: 30% 70%;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 15px;
+    }
+
+    .main
+    {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width:1140px)
+{
+    #userContent
+    {
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 13px;
+        padding: 11px;
+        text-align: center;
+    }
+
+    .pokemonSecondType
+    {
+        left: 5vw;
+    }
+
+    .main
+    {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1000px)
+{
+    img
+    {
+        width: 150px;
+        height: 150px;
+    }
+
+    #user
+    {
+        grid-template-columns: 25% 75%;
+    }
+
+    #enemy
+    {
+        grid-template-columns: 75% 25%;
+    }
+
+    .main{
+        grid-template-columns: fit-content(40%) 10% 10% 40%;
+        margin-bottom:1vw;
+    }
+
+    ul
+    {
+        padding-left:14px;
+    }
+}
+
+@media only screen and (max-width:940px)
+{
+    img
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+    ul
+    {
+        width: 40vw;
+        margin-left: 55vw;
+        border-radius: 0;
+        margin-right: 10px;
+        height: 250px;
+    }
+
+    .attack
+    {
+        font-size: 19px;
+        width: 15vw;
+        border-radius: 0;
+    }
+
+    .hp
+    {
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    #pokemons
+    {
+        width:100%;
+    }
+
+    #user .stats
+    {
+        float: right;
+    }
+
+    .stats
+    {
+        width: 67vw;
+    }
+    
+    #enemy
+    {
+        grid-template-columns: fit-content(80%) 20%;
+    }
+
+    #userContent
+    {
+        margin-right: 20px;
+        margin-left: 5vw;
+    }
+
+    #user
+    {
+        grid-template-columns: 20% fit-content(80%);
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .main
+    {
+        font-size: 26px;
+    }
+
+    .information
+    {
+        font-size:14px;
+        line-height: 3;
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+    ul
+    {
+        margin-left: 54vw;
+    }
+
+    .stats
+    {
+        width: 60vw;
+    }
+
+    .main
+    {
+        font-size: 22px;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 10px;
+        padding: 11px;
+    }
+
+    #userContent
+    {
+        margin-left: 90px;
+        margin-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width:720px)
+{
+    ul
+    {
+        height: 160px;
+        padding-left: 0px;
+    }
+
+    .attack
+    {
+        height: 60px;
+    }
+
+    .stats
+    {
+        width: 58vw;
+    }
+
+    .main
+    {
+        font-size: 19px;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    img
+    {
+        width: 175px;
+        height: 175px;
+    }
+
+    #enemy
+    {
+        grid: fit-content(70%) 30%;
+    }
+
+    #user
+    {
+        grid: 30% fit-content(70%);
+    }
+}
+
+@media only screen and (max-width:630px)
+{
+    #userContent
+    {
+        margin-left:60px;
+    }
+
+    .main
+    {
+        font-size: 16px;
+    }
+
+    .information
+    {
+        font-size:10px;
+        line-height: 4;
+    }
+}
+
+@media only screen and (max-width:570px)
+{
+    ul
+    {
+        width: 370px;
+        margin: auto;
+        height: 120px;
+    }
+
+    img
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    .attack
+    {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #user
+    {
+        height: 150px;
+        width: 100%;
+    }
+
+    #enemy
+    {
+        height: 150px;
+        width: 100%;
+    }
+
+    #pokemons
+    {
+        grid-template-rows: 150px 150px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .stats
+    {
+        width:160%;
+    }
+
+    .main
+    {
+        font-size: 13px;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 8px;
+        padding: 4px;
+    }
+
+    #enemyPhoto
+    {
+        margin-left: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) 
+{
+    .stats
+    {
+        width: 200px;
+    }
+
+    #enemyPhoto
+    {
+        margin-left: 2vw;
+    }
+
+    #enemy
+    {
+        margin-left: 10vw;
+    }
+
+    #user
+    {
+        margin-left: 5vw;
+    }
+
+    .main
+    {
+        font-size: 10px;
+    }
+
+    #userContent
+    {
+        margin-left:60px;
+        width: 200px;
+    }
+
+    img
+    {
+        height: 120px;
+        width: 120px;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        font-size: 6px;
+        padding:7px;
+        bottom: 4px;
+    }
+
+}
+
+@media only screen and (max-width: 415px)
+{
+
+    img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    ul
+    {
+        width: 310px;
+    }
+
+    .attack
+    {
+        width:120px;
+        font-size: 12px;
+    }
+
+    #pokemons
+    {
+        margin-left: 5vw;
+        width:40vw;
+    }
+
+    #enemy
+    {
+        margin-left:5vw;
+        width:40vw;
+    }
+
+    #enemyPhoto
+    {
+        margin-left: -10px;
+    }
+
+    #userContent
+    {
+        margin-left: 35px;
+    }
+
+    .information
+    {
+        font-size: 18px;
+        line-height: 2;
+    }
+}
+
+@media only screen and (max-width: 390px)
+{
+    #pokemons
+    {
+        width:100%;
+        margin-left:1vw;
+    }
+
+    .stats
+    {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 355px)
+{
+    .stats
+    {
+        width: 120px;
+    }
+
+    .main
+    {
+        font-size: 8px;
+        grid-template-columns: fit-content(50%) 15% 15% 20%;
+    }
+
+    .pokemonType, .pokemonSecondType
+    {
+        padding:6px;
+        font-size: 6px;
+    }
+
+    #userContent
+    {
+        width: 120px;
+        margin-left:45px
+    }
+
+    #pokemons
+    {
+        margin-left:10vw;
+    }
+}

@@ -1,0 +1,109 @@
+li{
+    border: 1px solid rgb(244,244,244);
+    box-shadow: 2px 2px 2px 2px rgb(244,244,244);
+    list-style-type: none;
+    padding: 16px;
+    margin: 8px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    text-align: center;
+}
+
+ul{
+    border: none;
+    margin-left:30%;
+    width: 35%;
+}
+
+#danger, #utility, #pageNum
+{
+    font-size: 15px;
+    padding: 12px;
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25% / 50%;
+    box-shadow: 2px 2px 2px 2px rgb(240,240,240);
+    border: none;
+    position:relative;
+}
+
+#users
+{
+    height: 70%;
+}
+
+#pageNum
+{
+    border-radius: 40%;
+    background-color: rgb(220, 220, 145);
+}
+
+#danger
+{
+    cursor: pointer;
+    background-color: rgb(220,145,145);
+}
+
+#utility
+{
+    cursor:pointer;
+    background-color: rgb(145,145,220);
+}
+
+#danger:hover, #utility:hover
+{
+    color: rgb(120,120,120);
+}
+
+#danger:active
+{
+    background-color: rgb(200,125,125);
+}
+
+#utility:active
+{
+    background-color: rgb(125,125,200);
+}
+
+#buttons
+{
+    margin: auto;
+    margin-top:20px;
+    text-align: center;
+}
+
+@media only screen and (max-width:950px)
+{
+    ul{
+        margin-left:28%;
+    }
+}
+
+@media only screen and (max-width:620px)
+{
+    ul
+    {
+        width:50%;
+        margin-left:15%;
+    }
+}
+
+@media only screen and (max-width:450px)
+{
+    ul
+    {
+        width:80%;
+        margin-left:0%;
+        padding-left:4vw;
+    }
+}
+
+@media only screen and (max-width:380px)
+{
+    ul
+    {
+        padding-left: 2vw;
+    }
+}

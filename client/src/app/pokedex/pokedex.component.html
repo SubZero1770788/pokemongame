@@ -1,0 +1,61 @@
+<section id="pokedex" *ngIf="pokedex">
+  <ul *ngFor="let pok of pokemons; let i = index">
+    <li>
+      <section>
+        <div id="pokemon">
+          <button (click)="getPokemon(i+1)" class="pokemonAccess">
+            <img src="{{pok.photoUrl || '/pokemonclicker/client/src/assets/unknown.webp'}}"alt="./"/>
+          </button>
+        </div>
+      </section>
+    </li>
+  </ul>
+</section>
+<section id="buttons" *ngIf="pokedex">
+  <button id="danger" (click)="loadPokemons(false)" [disabled]="pageNumber == 1">Back</button>
+  <button id="pageNum">{{pageNumber}}</button>
+  <button id="utility" (click)="loadPokemons(true)" [disabled]="pageNumber == 4">Next</button>
+</section>
+<section id="pokemonClicked"  *ngIf="!pokedex">
+  <section id="card">
+    <section id="pokemonCard">
+      <h2>#{{ pokemon!.id }} {{ pokemon!.name }}         
+        <div id="pokemonFirstType" [style.backgroundColor]="color1">
+        {{ pokemon!.pokemonType1 }}
+      </div>
+      <div 
+        id="pokemonSecondType"
+        [style.backgroundColor]="color2"
+        *ngIf="pokemon!.pokemonType2">
+        {{ pokemon!.pokemonType2 }}
+      </div>
+      <button id="utility" class="middlebutton" (click)="return()">Return</button></h2> 
+        <div id="photo">
+          <img src="{{ pokemon!.photoUrl }}" alt="" />
+        </div>
+      <div class="stats" *ngIf="pokemon!.level >= 1">
+        HP: {{ pokemon!.hp }} Speed: {{ pokemon!.speed }} <br>
+        Attack: {{ pokemon!.attack }} Defense: {{ pokemon!.defense }} <br>
+        Special Attack: {{ pokemon!.specialAttack }} 
+        Special Defense: {{ pokemon!.specialDefense }} <br>
+        <p>Evolves on: {{ pokemon!.level }}</p>
+      </div>
+      <div class="stats" *ngIf="pokemon!.level == 0">
+        HP: {{ pokemon!.hp }} Speed: {{ pokemon!.speed }}<br>
+        Attack: {{ pokemon!.attack }} Defense:
+        {{ pokemon!.defense }} <br> Special Attack:
+        {{ pokemon!.specialAttack }} Special Defense:
+        {{ pokemon!.specialDefense }} <br>
+        <p>Does not evolve</p>
+      </div>
+      <h3 style="text-align: center">Pokemon Attacks:</h3>
+      <div class="attacks">
+        <div *ngFor="let i of pokemon!.attacks; let num = index">
+          <div id="attack">{{ i }}</div>
+        </div>
+      </div>
+    </section>
+  </section>
+</section>
+
+

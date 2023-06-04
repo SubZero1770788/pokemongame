@@ -1,0 +1,20 @@
+<section>
+  <div *ngFor="let u of userPokemons; let i = index">
+    <div class="proper">
+      <div id="data">
+        <p class="pok">{{ u.name }}</p>
+        <div id="stats">
+          HP: {{ u.hp }}
+          SPEED: {{ u.speed}}
+          ATTACK: {{ u.attack }}<br>
+          DEFENSE: {{ u.defense }}<br>
+          SPECIAL DEFENSE: {{ u.specialDefense }}<br>
+          SPECIAL ATTACK: {{ u.specialAttack }}<br>
+        </div>
+      </div>
+      <button (click)="startBattle(i)">
+        <img src="{{ u.photoUrl }}" alt="" />
+      </button>
+    </div>
+  </div>
+</section>

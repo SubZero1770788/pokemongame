@@ -1,0 +1,33 @@
+[
+    {
+        "Id": 1,
+        "UserName": "Tom",
+        "Level": 10,
+        "Points": 100
+        
+    },
+    {
+        "Id": 2,
+        "UserName": "Tobias",
+        "Level": 6,
+        "Points": 100
+    },
+    {
+        "Id": 3,
+        "UserName": "Rahela",
+        "Level": 15,
+        "Points": 100
+    },
+    {
+        "Id": 4,
+        "UserName": "Michael",
+        "Level": 20,
+        "Points": 100
+    },
+    {
+        "Id": 5,
+        "UserName": "Adam",
+        "Level": 30,
+        "Points": 100
+    }
+]

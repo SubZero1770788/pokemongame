@@ -1,0 +1,21 @@
+<section>
+    <div>
+        <p id="topP"><b>Start playing now!</b></p>
+        <form [formGroup]="registerForm" (ngSubmit)="register()" autocomplete="off">
+            <input formControlName="UserName" type="text" placeholder="nickname">
+            <input formControlName="Password" type="password" placeholder="password"><br>
+            <input formControlName="confirmPassword" type="password" placeholder="confirm Password"><br>
+            <p id="lowP">Select your starter !</p>
+            <ul>
+                <li><label><input type="radio" formControlName="Pokemon" value="charmander" checked> Charmander</label></li>
+                <li><label><input type="radio" formControlName="Pokemon" value="bulbasaur"> Bulbasaur</label></li>
+                <li><label><input type="radio" formControlName="Pokemon" value="squirtle"> Squirtle</label></li>
+            </ul>
+            <button id="register" type="submit"><b>Register</b></button>
+            <button id="cancel" type="reset"><b>Cancel</b></button>
+        </form>
+    </div>
+</section>
+
+
+

@@ -1,0 +1,128 @@
+[
+    {
+        "Id": 1,
+        "Type": "Ground",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 2,
+        "Type": "Water",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 3,
+        "Type": "Fire",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 4,
+        "Type": "Grass",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 5,
+        "Type": "Flying",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 6,
+        "Type": "Dragon",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 7,
+        "Type": "Electric",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 8,
+        "Type": "Steel",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 9,
+        "Type": "Ghost",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 10,
+        "Type": "Dark",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 11,
+        "Type": "Fighting",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 12,
+        "Type": "Poison",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 13,
+        "Type": "Psychic",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 14,
+        "Type": "Fairy",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 15,
+        "Type": "Ice",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 16,
+        "Type": "Bug",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 17,
+        "Type": "Normal",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    },
+    {
+        "Id": 18,
+        "Type": "Rock",
+        "Weak":[],
+        "Resistant":[],
+        "Ineffective":[]
+    }
+]

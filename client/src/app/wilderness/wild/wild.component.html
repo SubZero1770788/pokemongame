@@ -1,0 +1,27 @@
+<section id="wild">
+    <section *ngIf="battleMode == 0">
+        <ul>
+            <li *ngFor="let wild of wildPlace; let i = index">
+                <p>{{wild.name}}</p>        
+                <img src="{{wild.photoUrl}}" alt="">
+                <button (click)="move(i+1)"  routerLink="../wild">Go there !</button>
+            </li>
+        </ul>
+    </section>
+    <section *ngIf="battleMode == 1" id="wildadventure">
+        <app-backpack id="backpack" (healingMode)="goTo($event)" (emitMessage)="messageFrom"></app-backpack>
+        <app-wildadventure id="adventure" [currentPokemon]="Wildpokemon" (returnable)="goTo($event)" (pokemons)="userPokemons" [messageFrom]="messageFrom"
+        [type1color]="color1" [type2color]="color2"></app-wildadventure>
+        <app-pokemon-team id="pokemons" [userPokemons]="userPokemons" (battleMode)="goTo($event)"></app-pokemon-team>
+    </section>
+    <section *ngIf="battleMode == 2" id="battleMode">
+        <app-backpack (healingMode)="goTo($event)"></app-backpack>
+        <app-battle id="battle" #currentBattle (returnable)="goTo($event)"></app-battle>
+    </section>
+    <section *ngIf="battleMode == 3" id="healingMode">
+        <app-healing [userPokemons]="userPokemons" (exit)="goTo($event)"></app-healing>
+    </section>
+</section>
+
+
+

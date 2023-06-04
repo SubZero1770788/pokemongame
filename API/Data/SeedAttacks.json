@@ -1,0 +1,1892 @@
+[
+    {
+        "Id":1,
+        "AttackName":"Thundershock",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level": 10
+    },
+    {
+        "Id":2,
+        "AttackName":"Shock Wave",
+        "AttackPower": 60,
+        "Split": true,
+        "PokemonTypeId":7,
+        "Accuracy":1000,
+        "Level": 15
+    },
+    {
+        "Id":3,
+        "AttackName":"Spark",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level": 17
+    },
+    {
+        "Id":4,
+        "AttackName":"Parabolic Charge",
+        "AttackPower": 65,
+        "Split": false,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level": 20
+    },
+    {
+        "Id":5,
+        "AttackName":"Thunder Fang",
+        "AttackPower": 65,
+        "Split": false,
+        "PokemonTypeId":7,
+        "Accuracy":95,
+        "Level": 22
+    },
+    {
+        "Id":6,
+        "AttackName":"Discharge",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":7,
+        "AttackName":"Bolt beak",
+        "AttackPower": 85,
+        "Split": false,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level":34
+    },
+    {
+        "Id":8,
+        "AttackName":"Thunderbolt",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level": 38
+    },
+    {
+        "Id":9,
+        "AttackName":"Thunder",
+        "AttackPower": 110,
+        "Split": true,
+        "PokemonTypeId":7,
+        "Accuracy":70,
+        "Level": 47
+    },
+    {
+        "Id":10,
+        "AttackName":"Zap Cannon",
+        "AttackPower": 120,
+        "Split": true,
+        "PokemonTypeId":7,
+        "Accuracy":50,
+        "Level": 42
+    },
+    {
+        "Id":11,
+        "AttackName":"Volt Tackle",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":7,
+        "Accuracy":100,
+        "Level": 44
+    },
+    {
+        "Id":12,
+        "AttackName":"Feint",
+        "AttackPower": 30,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 3
+    },
+    {
+        "Id":13,
+        "AttackName":"Pound",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 5
+    },
+    {
+        "Id":14,
+        "AttackName":"Tackle",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 5
+    },
+    {
+        "Id":15,
+        "AttackName":"Cut",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 10
+    },
+    {
+        "Id":16,
+        "AttackName":"Vise grip",
+        "AttackPower": 55,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 12
+    },
+    {
+        "Id":17,
+        "AttackName":"Covet",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 15
+    },
+    {
+        "Id":18,
+        "AttackName":"Horn Attack",
+        "AttackPower": 65,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 18
+    },
+    {
+        "Id":19,
+        "AttackName":"Facade",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 22
+    },
+    {
+        "Id":20,
+        "AttackName":"Headbutt",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 25
+    },
+    {
+        "Id":21,
+        "AttackName":"Crush Claw",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 26
+    },
+    {
+        "Id":22,
+        "AttackName":"Mega punch",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":85,
+        "Level": 29
+    },
+    {
+        "Id":23,
+        "AttackName":"Tri Attack",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":24,
+        "AttackName":"Take down",
+        "AttackPower": 90,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":85,
+        "Level": 32
+    },
+    {
+        "Id":25,
+        "AttackName":"Double Edge",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 37
+    },
+    {
+        "Id":26,
+        "AttackName":"Thrash",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 37
+    },
+    {
+        "Id":27,
+        "AttackName":"Hyper Beam",
+        "AttackPower": 150,
+        "Split": true,
+        "PokemonTypeId":17,
+        "Accuracy":90,
+        "Level": 50
+    },
+    {
+        "Id":28,
+        "AttackName":"Self-Destruct",
+        "AttackPower": 200,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 55
+    },
+    {
+        "Id":29,
+        "AttackName":"Explosion",
+        "AttackPower": 250,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 60
+    },
+    {
+        "Id":30,
+        "AttackName":"Giga Impact",
+        "AttackPower": 150,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":90,
+        "Level": 50
+    },
+    {
+        "Id":31,
+        "AttackName":"Fire Spin",
+        "AttackPower": 35,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":85,
+        "Level": 6
+    },
+    {
+        "Id":32,
+        "AttackName":"Ember",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 8
+    },
+    {
+        "Id":33,
+        "AttackName":"Flame Wheel",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 14
+    },
+    {
+        "Id":34,
+        "AttackName":"Fire Fang",
+        "AttackPower": 65,
+        "Split": false,
+        "PokemonTypeId":3,
+        "Accuracy":95,
+        "Level": 20
+    },
+    {
+        "Id":35,
+        "AttackName":"Fire Punch",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 27
+    },
+    {
+        "Id":36,
+        "AttackName":"Fiery Dance",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":37,
+        "AttackName":"Lava Plume",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 31
+    },
+    {
+        "Id":38,
+        "AttackName":"Heat Wave",
+        "AttackPower": 95,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":90,
+        "Level": 38
+    },
+    {
+        "Id":39,
+        "AttackName":"Fire Blast",
+        "AttackPower": 110,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":85,
+        "Level": 46
+    },
+    {
+        "Id":40,
+        "AttackName":"Flare Blitz",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 49
+    },
+    {
+        "Id":41,
+        "AttackName":"Blast Burn",
+        "AttackPower": 150,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":90,
+        "Level": 60
+    },
+    {
+        "Id":42,
+        "AttackName":"Eruption",
+        "AttackPower": 150,
+        "Split": true,
+        "PokemonTypeId":3,
+        "Accuracy":100,
+        "Level": 63
+    },
+    {
+        "Id":43,
+        "AttackName":"Whirpool",
+        "AttackPower": 35,
+        "Split": true,
+        "PokemonTypeId":2,
+        "Accuracy":85,
+        "Level": 4
+    },
+    {
+        "Id":44,
+        "AttackName":"Bubble",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 6
+    },
+    {
+        "Id":45,
+        "AttackName":"Aqua Jet",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 8
+    },
+    {
+        "Id":46,
+        "AttackName":"Jet Punch",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 14
+    },
+    {
+        "Id":47,
+        "AttackName":"Water Pulse",
+        "AttackPower": 60,
+        "Split": true,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 18
+    },
+    {
+        "Id":48,
+        "AttackName":"Aqua Cutter",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 24
+    },
+    {
+        "Id":49,
+        "AttackName":"Scald",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 33
+    },
+    {
+        "Id":50,
+        "AttackName":"Waterfall",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 28
+    },
+    {
+        "Id":51,
+        "AttackName":"Crabhammer",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":2,
+        "Accuracy":90,
+        "Level": 40
+    },
+    {
+        "Id":52,
+        "AttackName":"Hydro Pump",
+        "AttackPower": 110,
+        "Split": true,
+        "PokemonTypeId":2,
+        "Accuracy":80,
+        "Level": 49
+    },
+    {
+        "Id":53,
+        "AttackName":"Water Spout",
+        "AttackPower": 150,
+        "Split": true,
+        "PokemonTypeId":2,
+        "Accuracy":100,
+        "Level": 65
+    },
+    {
+        "Id":54,
+        "AttackName":"Mud-Slap",
+        "AttackPower": 20,
+        "Split": true,
+        "PokemonTypeId":1,
+        "Accuracy":100,
+        "Level": 2
+    },
+    {
+        "Id":55,
+        "AttackName":"Sand Tomb",
+        "AttackPower": 35,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":85,
+        "Level": 5
+    },
+    {
+        "Id":56,
+        "AttackName":"Mud Shot",
+        "AttackPower": 55,
+        "Split": true,
+        "PokemonTypeId":1,
+        "Accuracy":95,
+        "Level": 12
+    },
+    {
+        "Id":57,
+        "AttackName":"Bulldoze",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":100,
+        "Level": 15
+    },
+    {
+        "Id":58,
+        "AttackName":"Mud Bomb",
+        "AttackPower": 65,
+        "Split": true,
+        "PokemonTypeId":1,
+        "Accuracy":85,
+        "Level": 18
+    },
+    {
+        "Id":59,
+        "AttackName":"Stomping Tantrum",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":100,
+        "Level": 26
+    },
+    {
+        "Id":60,
+        "AttackName":"Drill Run",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":95,
+        "Level": 32
+    },
+    {
+        "Id":61,
+        "AttackName":"Earth Power",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":1,
+        "Accuracy":100,
+        "Level": 41
+    },
+    {
+        "Id":62,
+        "AttackName":"High Horsepower",
+        "AttackPower": 95,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":95,
+        "Level": 42
+    },
+    {
+        "Id":63,
+        "AttackName":"Earthquake",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":100,
+        "Level": 44
+    },
+    {
+        "Id":64,
+        "AttackName":"Fissure",
+        "AttackPower": 1000,
+        "Split": false,
+        "PokemonTypeId":1,
+        "Accuracy":30,
+        "Level": 70
+    },
+    {
+        "Id":65,
+        "AttackName":"Absorb",
+        "AttackPower": 20,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 3
+    },
+    {
+        "Id":66,
+        "AttackName":"Bullet Seed",
+        "AttackPower": 25,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 4
+    },
+    {
+        "Id":67,
+        "AttackName":"Mega Drain",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 5
+    },
+    {
+        "Id":68,
+        "AttackName":"Vine Whip",
+        "AttackPower": 45,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 7
+    },
+    {
+        "Id":69,
+        "AttackName":"Trailblaze",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 10
+    },
+    {
+        "Id":70,
+        "AttackName":"Razor Leaf",
+        "AttackPower": 55,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 16
+    },
+    {
+        "Id":71,
+        "AttackName":"Magical Leaf",
+        "AttackPower": 60,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":1000,
+        "Level": 18
+    },
+    {
+        "Id":72,
+        "AttackName":"Needle Arm",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 21
+    },
+    {
+        "Id":73,
+        "AttackName":"Leaf Tornado",
+        "AttackPower": 65,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 24
+    },
+    {
+        "Id":74,
+        "AttackName":"Giga Drain",
+        "AttackPower": 75,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 28
+    },
+    {
+        "Id":75,
+        "AttackName":"Horn Leech",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 27
+    },
+    {
+        "Id":76,
+        "AttackName":"Seed Bomb",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 31
+    },
+    {
+        "Id":77,
+        "AttackName":"Energy Ball",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 37
+    },
+    {
+        "Id":78,
+        "AttackName":"Leaf Blade",
+        "AttackPower": 90,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 40
+    },
+    {
+        "Id":79,
+        "AttackName":"Petal Dance",
+        "AttackPower": 120,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 44
+    },
+    {
+        "Id":80,
+        "AttackName":"Leaf Storm",
+        "AttackPower": 130,
+        "Split": true,
+        "PokemonTypeId":4,
+        "Accuracy":90,
+        "Level": 46
+    },
+    {
+        "Id":81,
+        "AttackName":"Frenzy Plant",
+        "AttackPower": 150,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":90,
+        "Level": 56
+    },
+    {
+        "Id":82,
+        "AttackName":"Wood Hammer",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":4,
+        "Accuracy":100,
+        "Level": 45
+    },
+    {
+        "Id":83,
+        "AttackName":"Ice Ball",
+        "AttackPower": 30,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":90,
+        "Level": 4
+    },
+    {
+        "Id":84,
+        "AttackName":"Powder Snow",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":15,
+        "Accuracy":100,
+        "Level": 6
+    },
+    {
+        "Id":85,
+        "AttackName":"Avalanche",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":100,
+        "Level": 16
+    },
+    {
+        "Id":86,
+        "AttackName":"Frost Breath",
+        "AttackPower": 60,
+        "Split": true,
+        "PokemonTypeId":15,
+        "Accuracy":90,
+        "Level": 18
+    },
+    {
+        "Id":87,
+        "AttackName":"Aurora Beam",
+        "AttackPower": 65,
+        "Split": true,
+        "PokemonTypeId":15,
+        "Accuracy":100,
+        "Level": 20
+    },
+    {
+        "Id":88,
+        "AttackName":"Ice Fang",
+        "AttackPower": 65,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":95,
+        "Level": 24
+    },
+    {
+        "Id":89,
+        "AttackName":"Ice Punch",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":100,
+        "Level": 26
+    },
+    {
+        "Id":90,
+        "AttackName":"Icicle Crash",
+        "AttackPower": 85,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":90,
+        "Level": 33
+    },
+    {
+        "Id":91,
+        "AttackName":"Ice Beam",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":15,
+        "Accuracy":100,
+        "Level": 37
+    },
+    {
+        "Id":92,
+        "AttackName":"Ice Hammer",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":90,
+        "Level": 40
+    },
+    {
+        "Id":93,
+        "AttackName":"Blizzard",
+        "AttackPower": 110,
+        "Split": true,
+        "PokemonTypeId":15,
+        "Accuracy":70,
+        "Level": 43
+    },
+    {
+        "Id":94,
+        "AttackName":"Glacial Lance",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":15,
+        "Accuracy":100,
+        "Level": 49
+    },
+    {
+        "Id":95,
+        "AttackName":"Triple Kick",
+        "AttackPower": 10,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":90,
+        "Level": 1
+    },
+    {
+        "Id":96,
+        "AttackName":"Double Kick",
+        "AttackPower": 30,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 5
+    },
+    {
+        "Id":97,
+        "AttackName":"Mach Punch",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 7
+    },
+    {
+        "Id":98,
+        "AttackName":"Power-Up Punch",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 6
+    },
+    {
+        "Id":99,
+        "AttackName":"Karate Chop",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 10
+    },
+    {
+        "Id":100,
+        "AttackName":"Revenge",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 15
+    },
+    {
+        "Id":101,
+        "AttackName":"Vital Throw",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 20
+    },
+    {
+        "Id":102,
+        "AttackName":"Brick Break",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 24
+    },
+    {
+        "Id":103,
+        "AttackName":"Drain Punch",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 27
+    },
+    {
+        "Id":104,
+        "AttackName":"Aura Sphere",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":105,
+        "AttackName":"Sacred Sword",
+        "AttackPower": 90,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 35
+    },
+    {
+        "Id":106,
+        "AttackName":"Cross Chop",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":80,
+        "Level": 37
+    },
+    {
+        "Id":107,
+        "AttackName":"Hammer Arm",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":90,
+        "Level": 36
+    },
+    {
+        "Id":108,
+        "AttackName":"Focus Blast",
+        "AttackPower": 120,
+        "Split": true,
+        "PokemonTypeId":11,
+        "Accuracy":70,
+        "Level": 46
+    },
+    {
+        "Id":109,
+        "AttackName":"Close Combat",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 40
+    },
+    {
+        "Id":110,
+        "AttackName":"Focus Punch",
+        "AttackPower": 150,
+        "Split": false,
+        "PokemonTypeId":11,
+        "Accuracy":100,
+        "Level": 50
+    },
+    {
+        "Id":111,
+        "AttackName":"Poison Sting",
+        "AttackPower": 15,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 3
+    },
+    {
+        "Id":112,
+        "AttackName":"Mortal Spin",
+        "AttackPower": 30,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 4
+    },
+    {
+        "Id":113,
+        "AttackName":"Acid",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 6
+    },
+    {
+        "Id":114,
+        "AttackName":"Clear Smog",
+        "AttackPower": 50,
+        "Split": true,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 10
+    },
+    {
+        "Id":115,
+        "AttackName":"Poison Tail",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 13
+    },
+    {
+        "Id":116,
+        "AttackName":"Sludge",
+        "AttackPower": 65,
+        "Split": true,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 21
+    },
+    {
+        "Id":117,
+        "AttackName":"Cross Poison",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 27
+    },
+    {
+        "Id":118,
+        "AttackName":"Dire Claw",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 31
+    },
+    {
+        "Id":119,
+        "AttackName":"Poison Jab",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 32
+    },
+    {
+        "Id":120,
+        "AttackName":"Sludge Bomb",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 35
+    },
+    {
+        "Id":121,
+        "AttackName":"Sludge Wave",
+        "AttackPower": 95,
+        "Split": true,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 40
+    },
+    {
+        "Id":122,
+        "AttackName":"Noxious Torque",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 42
+    },
+    {
+        "Id":123,
+        "AttackName":"Gunk Shot",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":12,
+        "Accuracy":100,
+        "Level": 49
+    },
+    {
+        "Id":124,
+        "AttackName":"Belch",
+        "AttackPower": 120,
+        "Split": true,
+        "PokemonTypeId":12,
+        "Accuracy":90,
+        "Level": 53
+    },
+    {
+        "Id":125,
+        "AttackName":"Peck",
+        "AttackPower": 35,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 3
+    },
+    {
+        "Id":126,
+        "AttackName":"Gust",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 5
+    },
+    {
+        "Id":127,
+        "AttackName":"Acrobatics",
+        "AttackPower": 55,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 12
+    },
+    {
+        "Id":128,
+        "AttackName":"Aerial Ace",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":1000,
+        "Level": 18
+    },
+    {
+        "Id":129,
+        "AttackName":"Wing Attack",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 16
+    },
+    {
+        "Id":130,
+        "AttackName":"Air Slash",
+        "AttackPower": 75,
+        "Split": true,
+        "PokemonTypeId":5,
+        "Accuracy":95,
+        "Level": 28
+    },
+    {
+        "Id":131,
+        "AttackName":"Oblivion Wing",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 33
+    },
+    {
+        "Id":132,
+        "AttackName":"Bounce",
+        "AttackPower": 85,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":85,
+        "Level": 37
+    },
+    {
+        "Id":133,
+        "AttackName":"Aeroblast",
+        "AttackPower": 95,
+        "Split": true,
+        "PokemonTypeId":5,
+        "Accuracy":95,
+        "Level": 42
+    },
+    {
+        "Id":134,
+        "AttackName":"Beak Blast",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 44
+    },
+    {
+        "Id":135,
+        "AttackName":"Hurricane",
+        "AttackPower": 110,
+        "Split": true,
+        "PokemonTypeId":5,
+        "Accuracy":70,
+        "Level": 48
+    },
+    {
+        "Id":136,
+        "AttackName":"Brave Bird",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 49
+    },
+    {
+        "Id":137,
+        "AttackName":"Dragon Ascent",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":100,
+        "Level": 50
+    },
+    {
+        "Id":138,
+        "AttackName":"Sky Attack",
+        "AttackPower": 140,
+        "Split": false,
+        "PokemonTypeId":5,
+        "Accuracy":90,
+        "Level": 57
+    },
+    {
+        "Id":139,
+        "AttackName":"Twin Beam",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 4
+    },
+    {
+        "Id":140,
+        "AttackName":"Heart Stamp",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 12
+    },
+    {
+        "Id":141,
+        "AttackName":"Psybeam",
+        "AttackPower": 65,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 17
+    },
+    {
+        "Id":142,
+        "AttackName":"Psycho Cut",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 22
+    },
+    {
+        "Id":143,
+        "AttackName":"Eerie Spell",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 27
+    },
+    {
+        "Id":144,
+        "AttackName":"Esper Wing",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 28
+    },
+    {
+        "Id":145,
+        "AttackName":"Psyblade",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":146,
+        "AttackName":"Psychic Fangs",
+        "AttackPower": 85,
+        "Split": false,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":147,
+        "AttackName":"Psychic",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 34
+    },
+    {
+        "Id":148,
+        "AttackName":"Psystrike",
+        "AttackPower": 100,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 38
+    },
+    {
+        "Id":149,
+        "AttackName":"Psycho Boost",
+        "AttackPower": 140,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":90,
+        "Level": 47
+    },
+    {
+        "Id":150,
+        "AttackName":"Prismatic Laser",
+        "AttackPower": 160,
+        "Split": true,
+        "PokemonTypeId":13,
+        "Accuracy":100,
+        "Level": 50
+    },
+    {
+        "Id":151,
+        "AttackName":"Infestation",
+        "AttackPower": 20,
+        "Split": true,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 2
+    },
+    {
+        "Id":152,
+        "AttackName":"Twineedle",
+        "AttackPower": 25,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 3
+    },
+    {
+        "Id":153,
+        "AttackName":"Fell Stinger",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 9
+    },
+    {
+        "Id":154,
+        "AttackName":"Struggle Bug",
+        "AttackPower": 50,
+        "Split": true,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 8
+    },
+    {
+        "Id":155,
+        "AttackName":"Bug Bite",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 13
+    },
+    {
+        "Id":156,
+        "AttackName":"U-turn",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 19
+    },
+    {
+        "Id":157,
+        "AttackName":"Signal beam",
+        "AttackPower": 75,
+        "Split": true,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 22
+    },
+    {
+        "Id":158,
+        "AttackName":"Leech Life",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 27
+    },
+    {
+        "Id":159,
+        "AttackName":"Bug Buzz",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 33
+    },
+    {
+        "Id":160,
+        "AttackName":"First Impression",
+        "AttackPower": 90,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":161,
+        "AttackName":"Pollen Puff",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":16,
+        "Accuracy":100,
+        "Level": 35
+    },
+    {
+        "Id":162,
+        "AttackName":"Megahorn",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":16,
+        "Accuracy":85,
+        "Level": 46
+    },
+    {
+        "Id":163,
+        "AttackName":"Rock Blast",
+        "AttackPower": 25,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":80,
+        "Level":1
+    },
+    {
+        "Id":164,
+        "AttackName":"Accelerock",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":100,
+        "Level": 2
+    },
+    {
+        "Id":165,
+        "AttackName":"Rock Throw",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":90,
+        "Level": 9
+    },
+    {
+        "Id":166,
+        "AttackName":"Ancient Power",
+        "AttackPower": 60,
+        "Split": true,
+        "PokemonTypeId":18,
+        "Accuracy":100,
+        "Level": 13
+    },
+    {
+        "Id":167,
+        "AttackName":"Rock Tomb",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":95,
+        "Level": 17
+    },
+    {
+        "Id":168,
+        "AttackName":"Stone Axe",
+        "AttackPower": 65,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":90,
+        "Level": 22
+    },
+    {
+        "Id":169,
+        "AttackName":"Rock Slide",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":100,
+        "Level": 26
+    },
+    {
+        "Id":170,
+        "AttackName":"Power Gem",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":18,
+        "Accuracy":100,
+        "Level": 30
+    },
+    {
+        "Id":171,
+        "AttackName":"Diamond Storm",
+        "AttackPower": 100,
+        "Split": true,
+        "PokemonTypeId":18,
+        "Accuracy":95,
+        "Level": 40
+    },
+    {
+        "Id":172,
+        "AttackName":"Stone Edge",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":80,
+        "Level": 35
+    },
+    {
+        "Id":173,
+        "AttackName":"Meteor Beam",
+        "AttackPower": 120,
+        "Split": true,
+        "PokemonTypeId":18,
+        "Accuracy":90,
+        "Level": 45
+    },    
+    {
+        "Id":174,
+        "AttackName":"Head Smash",
+        "AttackPower": 150,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":90,
+        "Level": 52
+    },
+    {
+        "Id":175,
+        "AttackName":"Rock Wrecker",
+        "AttackPower": 150,
+        "Split": false,
+        "PokemonTypeId":18,
+        "Accuracy":90,
+        "Level": 54
+    },
+    {
+        "Id":176,
+        "AttackName":"Shadow Sneak",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":9,
+        "Accuracy":100,
+        "Level": 6
+    },
+    {
+        "Id":177,
+        "AttackName":"Infernal Parade",
+        "AttackPower": 60,
+        "Split": true,
+        "PokemonTypeId":9,
+        "Accuracy":100,
+        "Level": 14
+    },
+    {
+        "Id":178,
+        "AttackName":"Bitter Malice",
+        "AttackPower": 75,
+        "Split": true,
+        "PokemonTypeId":9,
+        "Accuracy":100,
+        "Level": 21
+    },
+    {
+        "Id":179,
+        "AttackName":"Shadow Ball",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":9,
+        "Accuracy":100,
+        "Level": 29
+    },
+    {
+        "Id":180,
+        "AttackName":"Poltergeist",
+        "AttackPower": 110,
+        "Split": false,
+        "PokemonTypeId":9,
+        "Accuracy":90,
+        "Level": 38
+    },
+    {
+        "Id":181,
+        "AttackName":"Astral Barrage",
+        "AttackPower": 120,
+        "Split": true,
+        "PokemonTypeId":9,
+        "Accuracy":100,
+        "Level": 45
+    },
+    {
+        "Id":182,
+        "AttackName":"Dual Chop",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":6,
+        "Accuracy":90,
+        "Level": 4
+    },
+    {
+        "Id":183,
+        "AttackName":"Breaking Swipe",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":6,
+        "Accuracy":100,
+        "Level": 13
+    },
+    {
+        "Id":184,
+        "AttackName":"Dragon Claw",
+        "AttackPower": 80,
+        "Split": false,
+        "PokemonTypeId":6,
+        "Accuracy":100,
+        "Level": 28
+    },
+    {
+        "Id":185,
+        "AttackName":"Dragon Rush",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":6,
+        "Accuracy":75,
+        "Level": 33
+    },
+    {
+        "Id":186,
+        "AttackName":"Outrage",
+        "AttackPower": 120,
+        "Split": false,
+        "PokemonTypeId":6,
+        "Accuracy":100,
+        "Level": 36
+    },
+    {
+        "Id":187,
+        "AttackName":"Draco Meteor",
+        "AttackPower": 130,
+        "Split": true,
+        "PokemonTypeId":6,
+        "Accuracy":90,
+        "Level": 40
+    },
+    {
+        "Id":188,
+        "AttackName":"Dragon Energy",
+        "AttackPower": 150,
+        "Split": true,
+        "PokemonTypeId":6,
+        "Accuracy":100,
+        "Level": 50
+    },
+    {
+        "Id":189,
+        "AttackName":"Pursuit",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":10,
+        "Accuracy":100,
+        "Level": 7
+    },
+    {
+        "Id":190,
+        "AttackName":"Snarl",
+        "AttackPower": 55,
+        "Split": true,
+        "PokemonTypeId":10,
+        "Accuracy":95,
+        "Level": 12
+    },
+    {
+        "Id":191,
+        "AttackName":"Feint Attack",
+        "AttackPower": 60,
+        "Split": false,
+        "PokemonTypeId":10,
+        "Accuracy":1000,
+        "Level": 16
+    },
+    {
+        "Id":192,
+        "AttackName":"Darkest Lariat",
+        "AttackPower": 85,
+        "Split": false,
+        "PokemonTypeId":10,
+        "Accuracy":100,
+        "Level": 34
+    },
+    {
+        "Id":193,
+        "AttackName":"Fiery Wrath",
+        "AttackPower": 90,
+        "Split": true,
+        "PokemonTypeId":10,
+        "Accuracy":100,
+        "Level": 38
+    },
+    {
+        "Id":194,
+        "AttackName":"Foul Play",
+        "AttackPower": 95,
+        "Split": false,
+        "PokemonTypeId":10,
+        "Accuracy":100,
+        "Level": 41
+    },
+    {
+        "Id":195,
+        "AttackName":"Bullet Punch",
+        "AttackPower": 40,
+        "Split": false,
+        "PokemonTypeId":8,
+        "Accuracy":100,
+        "Level": 4
+    },
+    {
+        "Id":196,
+        "AttackName":"Mirror Shot",
+        "AttackPower": 65,
+        "Split": true,
+        "PokemonTypeId":8,
+        "Accuracy":85,
+        "Level": 20
+    },
+    {
+        "Id":197,
+        "AttackName":"Steel Wing",
+        "AttackPower": 70,
+        "Split": false,
+        "PokemonTypeId":8,
+        "Accuracy":90,
+        "Level": 26
+    },
+    {
+        "Id":198,
+        "AttackName":"Flash Cannon",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":8,
+        "Accuracy":100,
+        "Level": 31
+    },
+    {
+        "Id":199,
+        "AttackName":"Behemoth Bash",
+        "AttackPower": 100,
+        "Split": false,
+        "PokemonTypeId":8,
+        "Accuracy":100,
+        "Level": 39
+    },
+    {
+        "Id":200,
+        "AttackName":"Steel Beam",
+        "AttackPower": 140,
+        "Split": true,
+        "PokemonTypeId":8,
+        "Accuracy":95,
+        "Level": 48
+    },
+    {
+        "Id":201,
+        "AttackName":"Disarming Voice",
+        "AttackPower": 40,
+        "Split": true,
+        "PokemonTypeId":14,
+        "Accuracy":1000,
+        "Level": 3
+    },
+    {
+        "Id":202,
+        "AttackName":"Draining Kiss",
+        "AttackPower": 50,
+        "Split": true,
+        "PokemonTypeId":14,
+        "Accuracy":100,
+        "Level": 10
+    },
+    {
+        "Id":203,
+        "AttackName":"Spirit Break",
+        "AttackPower": 75,
+        "Split": false,
+        "PokemonTypeId":14,
+        "Accuracy":100,
+        "Level": 25
+    },
+    {
+        "Id":204,
+        "AttackName":"Dazzling Gleam",
+        "AttackPower": 80,
+        "Split": true,
+        "PokemonTypeId":14,
+        "Accuracy":100,
+        "Level": 29
+    },
+    {
+        "Id":205,
+        "AttackName":"Play Rough",
+        "AttackPower": 90,
+        "Split": false,
+        "PokemonTypeId":14,
+        "Accuracy":90,
+        "Level": 35
+    },
+    {
+        "Id":206,
+        "AttackName":"Moonblast",
+        "AttackPower": 95,
+        "Split": true,
+        "PokemonTypeId":14,
+        "Accuracy":100,
+        "Level": 40
+    },
+    {
+        "Id":207,
+        "AttackName":"Misty Explosion",
+        "AttackPower": 100,
+        "Split": true,
+        "PokemonTypeId":14,
+        "Accuracy":100,
+        "Level": 43
+    },
+    {
+        "Id":208,
+        "AttackName":"Fleur Cannon",
+        "AttackPower": 130,
+        "Split": true,
+        "PokemonTypeId":14,
+        "Accuracy":90,
+        "Level": 49
+    },
+    {
+        "Id":209,
+        "AttackName":"Light of Ruin",
+        "AttackPower": 140,
+        "Split": false,
+        "PokemonTypeId":14,
+        "Accuracy":90,
+        "Level": 53
+    },
+    {
+        "Id":210,
+        "AttackName":"Struggle",
+        "AttackPower": 50,
+        "Split": false,
+        "PokemonTypeId":17,
+        "Accuracy":100,
+        "Level": 1
+    }
+]

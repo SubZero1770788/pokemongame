@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\borderphoto.jpg",
+      "PackagePath": "staticwebassets\\assets\\borderphoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\greatball.jpg",
+      "PackagePath": "staticwebassets\\assets\\greatball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\hyper potion.jpg",
+      "PackagePath": "staticwebassets\\assets\\hyper potion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\masterball.jpg",
+      "PackagePath": "staticwebassets\\assets\\masterball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\mtMoon.png",
+      "PackagePath": "staticwebassets\\assets\\mtMoon.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\pokeball.webp",
+      "PackagePath": "staticwebassets\\assets\\pokeball.webp"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\potion.png",
+      "PackagePath": "staticwebassets\\assets\\potion.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\power plant.png",
+      "PackagePath": "staticwebassets\\assets\\power plant.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\safari.png",
+      "PackagePath": "staticwebassets\\assets\\safari.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\seafoamIslands.png",
+      "PackagePath": "staticwebassets\\assets\\seafoamIslands.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\super potion.jpg",
+      "PackagePath": "staticwebassets\\assets\\super potion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\ultraball.jpg",
+      "PackagePath": "staticwebassets\\assets\\ultraball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\unknown.webp",
+      "PackagePath": "staticwebassets\\assets\\unknown.webp"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\victoryRoad.png",
+      "PackagePath": "staticwebassets\\assets\\victoryRoad.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\assets\\viridian forest.png",
+      "PackagePath": "staticwebassets\\assets\\viridian forest.png"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\main.858989757cc6e13e.js",
+      "PackagePath": "staticwebassets\\main.858989757cc6e13e.js"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\polyfills.d7bd9d69524573e2.js",
+      "PackagePath": "staticwebassets\\polyfills.d7bd9d69524573e2.js"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\runtime.01fec06f14767966.js",
+      "PackagePath": "staticwebassets\\runtime.01fec06f14767966.js"
+    },
+    {
+      "Id": "C:\\Users\\djanu\\OneDrive\\Pulpit\\pokemonclicke\\api\\wwwroot\\styles.11c83be6975e2bf0.css",
+      "PackagePath": "staticwebassets\\styles.11c83be6975e2bf0.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,252 @@
+[
+    {
+        "Id":1,
+        "WeakId":1,
+        "WeakTypeId": 2
+    },
+    {
+        "Id":2,
+        "WeakId":1,
+        "WeakTypeId": 4
+    },
+    {
+        "Id":3,
+        "WeakId":1,
+        "WeakTypeId": 15
+    },
+    {
+        "Id":4,
+        "WeakId":2,
+        "WeakTypeId": 4
+    },
+    {
+        "Id":5,
+        "WeakId":2,
+        "WeakTypeId": 7
+    },
+    {
+        "Id":6,
+        "WeakId":3,
+        "WeakTypeId": 2
+    },
+    {
+        "Id":7,
+        "WeakId":3,
+        "WeakTypeId": 1
+    },
+    {
+        "Id":8,
+        "WeakId":3,
+        "WeakTypeId": 18
+    },
+    {
+        "Id":9,
+        "WeakId":4,
+        "WeakTypeId": 3
+    },
+    {
+        "Id":10,
+        "WeakId":4,
+        "WeakTypeId": 15
+    },
+    {
+        "Id":11,
+        "WeakId":4,
+        "WeakTypeId": 12
+    },
+    {
+        "Id":12,
+        "WeakId":4,
+        "WeakTypeId": 5
+    },
+    {
+        "Id":13,
+        "WeakId":4,
+        "WeakTypeId": 16
+    },
+    {
+        "Id":14,
+        "WeakId":5,
+        "WeakTypeId": 7
+    },
+    {
+        "Id":15,
+        "WeakId":5,
+        "WeakTypeId": 15
+    },
+    {
+        "Id":16,
+        "WeakId":5,
+        "WeakTypeId": 18
+    },
+    {
+        "Id":17,
+        "WeakId":6,
+        "WeakTypeId": 14
+    },
+    {
+        "Id":18,
+        "WeakId":6,
+        "WeakTypeId": 15
+    },
+    {
+        "Id":19,
+        "WeakId":6,
+        "WeakTypeId": 6
+    },
+    {
+        "Id":20,
+        "WeakId":7,
+        "WeakTypeId": 1
+    },
+    {
+        "Id":21,
+        "WeakId":8,
+        "WeakTypeId": 3
+    },
+    {
+        "Id":22,
+        "WeakId":8,
+        "WeakTypeId": 1
+    },
+    {
+        "Id":23,
+        "WeakId":8,
+        "WeakTypeId": 11
+    },
+    {
+        "Id":24,
+        "WeakId":9,
+        "WeakTypeId": 9
+    },
+    {
+        "Id":25,
+        "WeakId":9,
+        "WeakTypeId": 10
+    },
+    {
+        "Id":26,
+        "WeakId":10,
+        "WeakTypeId": 11
+    },
+    {
+        "Id":27,
+        "WeakId":10,
+        "WeakTypeId": 16
+    },
+    {
+        "Id":28,
+        "WeakId":10,
+        "WeakTypeId": 14
+    },
+    {
+        "Id":29,
+        "WeakId":11,
+        "WeakTypeId": 13
+    },
+    {
+        "Id":30,
+        "WeakId":11,
+        "WeakTypeId": 5
+    },
+    {
+        "Id":31,
+        "WeakId":11,
+        "WeakTypeId": 14
+    },
+    {
+        "Id":32,
+        "WeakId":12,
+        "WeakTypeId": 1
+    },
+    {
+        "Id":33,
+        "WeakId":12,
+        "WeakTypeId": 13
+    },
+    {
+        "Id":34,
+        "WeakId":13,
+        "WeakTypeId": 10
+    },
+    {
+        "Id":35,
+        "WeakId":13,
+        "WeakTypeId": 9
+    },
+    {
+        "Id":36,
+        "WeakId":13,
+        "WeakTypeId": 16
+    },
+    {
+        "Id":37,
+        "WeakId":14,
+        "WeakTypeId": 8
+    },
+    {
+        "Id":38,
+        "WeakId":14,
+        "WeakTypeId": 12
+    },
+    {
+        "Id":39,
+        "WeakId":15,
+        "WeakTypeId": 3
+    },
+    {
+        "Id":40,
+        "WeakId":15,
+        "WeakTypeId": 11
+    },
+    {
+        "Id":41,
+        "WeakId":15,
+        "WeakTypeId": 8
+    },
+    {
+        "Id":42,
+        "WeakId":15,
+        "WeakTypeId": 18
+    },
+    {
+        "Id":43,
+        "WeakId":16,
+        "WeakTypeId": 3
+    },
+    {
+        "Id":44,
+        "WeakId":16,
+        "WeakTypeId": 5
+    },
+    {
+        "Id":45,
+        "WeakId":16,
+        "WeakTypeId": 18
+    },
+    {
+        "Id":46,
+        "WeakId":17,
+        "WeakTypeId": 11
+    },
+    {
+        "Id":47,
+        "WeakId":18,
+        "WeakTypeId": 1
+    },
+    {
+        "Id":48,
+        "WeakId":18,
+        "WeakTypeId": 2
+    },
+    {
+        "Id":49,
+        "WeakId":18,
+        "WeakTypeId": 4
+    },
+    {
+        "Id":50,
+        "WeakId":18,
+        "WeakTypeId": 11
+    }
+]

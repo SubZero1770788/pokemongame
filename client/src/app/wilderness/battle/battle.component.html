@@ -1,0 +1,57 @@
+<section *ngIf="battle">
+  <section id="pokemons">
+    <div id="enemy">
+      <div class="stats">
+        <div class="main">
+          {{ battlePokemons![0].name }} lvl.{{ battlePokemons![0].level }}
+          <div class="pokemonType" [style.backgroundColor]="typeEntity1color">{{ battlePokemons![0].pokemonType1Name}}</div>
+          <div *ngIf="battlePokemons![0].pokemonType2Name" class="pokemonSecondType" [style.backgroundColor]="typeEntity2color">{{ battlePokemons![0].pokemonType2Name}}</div>  
+        </div>
+        <div class="hp" *ngIf="enemyCurrentHp">
+          <div id="hpEnemyNumber">{{enemyCurrentHp}} / {{enemyMaxHp}}</div>
+        </div>
+      </div>
+      <img id="enemyPhoto" src="{{ battlePokemons![0].photoUrl }}" alt="" />
+    </div>
+    <div id="user">
+      <img id="userOne" src="{{ battlePokemons![1].photoUrl }}" alt="" />
+      <div class="stats" id="userContent">
+          <div class="main">
+            {{ battlePokemons![1].name }} lvl.{{ battlePokemons![1].level }}
+            <div class="pokemonType" [style.backgroundColor]="typeUser1color">{{ battlePokemons![1].pokemonType1Name}}</div>
+            <div *ngIf="battlePokemons![1].pokemonType2Name" class="pokemonSecondType" [style.backgroundColor]="typeUser2color">{{ battlePokemons![1].pokemonType2Name}}</div> 
+          </div>
+          <div class="hp" *ngIf="userCurrentHp">
+            <div id="hpUserNumber">{{userCurrentHp}} / {{userMaxHp}}</div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="attacks">
+    <ul>
+      <button [style.backgroundColor]="attack1color" class="attack" (click)="chooseAttack(battlePokemons![1].attack1Id!)">{{ battlePokemons![1].attack1Name }}</button>
+      <button [style.backgroundColor]="attack2color" class="attack" (click)="chooseAttack(battlePokemons![1].attack2Id!)">{{ battlePokemons![1].attack2Name }}</button>
+      <button [style.backgroundColor]="attack3color" class="attack" (click)="chooseAttack(battlePokemons![1].attack3Id!)">{{ battlePokemons![1].attack3Name }}</button>
+      <button [style.backgroundColor]="attack4color" class="attack" (click)="chooseAttack(battlePokemons![1].attack4Id!)">{{ battlePokemons![1].attack4Name }}</button>
+    </ul>
+  </section>
+</section>
+<section *ngIf="!battle">
+  <div *ngIf="!newAttack && message!.attackName != null">
+    <p class="information">On this level your pokemon may learn a new attack: {{message!.attackName}}</p>
+    <p>Choose attack to replace</p>
+    <ul>
+      <button [style.backgroundColor]="attack1color" class="attack" (click)="replaceAttack(battlePokemons![1].attack1Id!)">{{ battlePokemons![1].attack1Name }}</button>
+      <button [style.backgroundColor]="attack2color" class="attack" (click)="replaceAttack(battlePokemons![1].attack2Id!)">{{ battlePokemons![1].attack2Name }}</button>
+      <button [style.backgroundColor]="attack3color" class="attack" (click)="replaceAttack(battlePokemons![1].attack3Id!)">{{ battlePokemons![1].attack3Name }}</button>
+      <button [style.backgroundColor]="attack4color" class="attack" (click)="replaceAttack(battlePokemons![1].attack4Id!)">{{ battlePokemons![1].attack4Name }}</button>
+    </ul>
+  </div>
+  <div *ngIf="newAttack">
+    <p class="information">{{newAttack!.message}} {{newAttack!.attackName}}</p>
+  </div>
+  <p class="information" [style.backgroundColor]="color">{{message!.message}}</p>
+      <button id="utility" (click)="continue()" [disabled]="message!.attackName != null && !newAttack" >Continue</button>
+      <button id="danger" (click)="return()" [disabled]="message!.attackName != null && !newAttack" routerLink="../wild">Return</button>
+</section>
+

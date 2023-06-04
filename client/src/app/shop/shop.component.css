@@ -1,0 +1,333 @@
+ul{
+    display: inline-block;
+}
+li{
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(244,244,244);
+    list-style-type: none;
+    width:400px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+img{
+    margin:15%;
+    height: 100px;
+    width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input{
+    width:15px;
+    overflow: hidden;
+    max-block-size: 3;
+    height:10px;
+    outline: none;
+}
+
+.itemData{
+    margin:15%;
+}
+
+button{
+    float:right;
+    border-radius: 5% /25%;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+    color: rgb(255,255,255);
+    background-color: rgb(145,145,220);  
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(120,120,120);
+}
+
+button:active
+{
+    background-color: rgb(125,125,200);
+}
+
+#inner
+{
+    margin-top:20px;
+}
+
+@media only screen and (max-width:1450px)
+{
+    li
+    {
+        width:370px;
+        height:150px;
+    }
+
+    .itemData
+    {
+        font-size: 16px;
+    }
+
+    button
+    {
+        font-size: 14px;
+    }
+
+    #allItems
+    {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #inner
+    {
+        margin: auto;
+    }
+
+    input
+    {
+        width:12px;
+        height: 10px;
+        
+    }
+}
+
+@media only screen and (max-width:1230px)
+{
+    li
+    {
+        width:320px;
+        height:150px;
+    }
+
+    .itemData
+    {
+        font-size: 15px;
+    }
+
+    button
+    {
+        font-size: 12px;
+    }
+
+    #allItems
+    {
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    #inner
+    {
+        margin: auto;
+    }
+
+    input
+    {
+        width:10px;
+        height: 9px; 
+    }
+}
+
+@media only screen and (max-width:1080px)
+{
+    li
+    {
+        width:320px;
+        height:150px;
+    }
+
+    .itemData
+    {
+        font-size: 15px;
+    }
+
+    button
+    {
+        font-size: 12px;
+    }
+
+    ul
+    {
+        padding-left:36px;
+        margin: 10px 0;
+    }
+
+    #allItems
+    {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    input
+    {
+        width:8px;
+        height: 7px; 
+    }
+}
+
+@media only screen and (max-width:760px)
+{
+    li
+    {
+        width:300px;
+        height:130px;
+    }
+
+    .itemData
+    {
+        font-size: 14px;
+    }
+
+    button
+    {
+        font-size: 11px;
+    }
+
+    ul
+    {
+        padding-left:32px;
+    }
+
+    #allItems
+    {
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    #inner
+    {
+        margin: auto;
+    }
+
+    input
+    {
+        width:8px;
+        height: 5px; 
+    }
+}
+
+@media only screen and (max-width:700px)
+{
+    li
+    {
+        width:250px;
+        height:100px;
+    }
+
+    .itemData
+    {
+        font-size: 10px;
+    }
+
+    button
+    {
+        font-size: 7px;
+    }
+
+    img
+    {
+        margin: 20%;
+        height: 80px;
+        width: 80px;
+    }
+
+    ul
+    {
+        margin:8px 0px;
+        padding-left: 24px;
+    }
+
+    #allItems
+    {
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    #inner
+    {
+        margin: auto;
+    }
+
+    input
+    {
+        width: 6px;
+        height: 5px; 
+    }
+}
+
+@media only screen and (max-width:570px)
+{
+    li
+    {
+        width: 200px;
+        height: 80px;
+    }
+
+    button
+    {
+        font-size: 7px;
+    }
+
+    img
+    {
+        height: 65px;
+        width: 65px;
+        margin: 7.5px;
+    }
+
+    ul
+    {
+        margin: 2px 0px;
+        padding-left: 14px;
+    }
+
+    input
+    {
+        width:10px;
+        height: 6px;
+        
+    }
+
+    #allItems
+    {
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    #inner
+    {
+        margin: auto;
+        position: relative;
+        bottom: 50px;
+    }
+
+    input
+    {
+        width: 6px;
+        height: 5px; 
+    }
+
+    .itemData
+    {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 430px) 
+{
+   ul
+   {
+    margin-left:16%;
+   } 
+}
+

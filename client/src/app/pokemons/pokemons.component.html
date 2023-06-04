@@ -1,0 +1,32 @@
+<section id="pokemonStorage">
+  <div *ngFor="let p of nonTeamPokemon; let i = index">
+    <div *ngIf="p.isInTeam == false" class="data" (click)="changePos(i, false)">
+      <p class="pok">{{ p.name }}</p>
+      <div class="stats">
+        HP: {{ p.hp }} 
+        SPEED: {{ p.speed }} 
+        ATTACK: {{ p.attack }}<br/>
+        DEFENSE: {{ p.defense }}<br/>
+        SPECIAL DEFENSE: {{ p.specialDefense }}<br/>
+        SPECIAL ATTACK: {{ p.specialAttack }}<br/>
+      </div>
+      <img src="{{ p.photoUrl }}" alt="" />
+    </div>
+  </div>
+</section>
+<section id="currentTeam">
+  <div *ngFor="let p of TeamPokemon; let i = index">
+    <div *ngIf="p.isInTeam == true" class="data" (click)="changePos(i, true)">
+      <p class="pok">{{ p.name }}</p>
+      <div class="stats">
+        HP: {{ p.hp }} 
+        SPEED: {{ p.speed }} 
+        ATTACK: {{ p.attack }}<br/>
+        DEFENSE: {{ p.defense }}<br/>
+        SPECIAL DEFENSE: {{ p.specialDefense }}<br/>
+        SPECIAL ATTACK: {{ p.specialAttack }}<br/>
+      </div>
+      <img src="{{ p.photoUrl }}" alt="" />
+    </div>
+  </div>
+</section>

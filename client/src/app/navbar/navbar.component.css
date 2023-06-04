@@ -1,0 +1,350 @@
+
+    ul{
+        text-align: center;
+    }
+    
+    #leftMenu button{
+        float: left
+    }
+    
+    .Menu button{
+        float: right;
+    }
+    
+    #leftMenu button, .Menu button{
+        padding: 13px;
+        margin: 6px;
+        border-radius: 15vw / 25vw;
+        position: relative;
+        bottom: 12px;
+    }
+    
+    button{
+        font-family: 'Bahnschrift', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(145,220,145);
+        border: none;
+        box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+        color: rgb(255,255,255);
+    }
+    
+    button:active
+    {
+        background-color: rgb(125,200,125);
+    }
+    
+    .special{
+        background-color: rgb(220,145,145);
+    }
+    
+    .special:active
+    {
+        background-color: rgb(200,125,125);
+    }
+    
+    .another{
+        background-color: rgb(145,145,220);
+    }
+    
+    .another:active
+    {
+        background-color: rgb(125,125,200);
+    }
+    
+    input{
+        font-family: sans-serif;
+        border-radius: 5vw/10vw;
+        padding:12px;
+        margin: 6px;
+        position: relative;
+        bottom:12px;
+        border: 3px solid rgb(240, 240, 240);
+        outline:none;
+        float:right;
+    }
+    
+    #navbar{
+        background-color:rgb(255, 255, 255);
+        width:100%;
+        max-height:75px;
+        position: absolute;
+        top:0px;
+        border-bottom: 1px solid rgb(244,244,244);
+        box-shadow: 2px 2px 2px 2px rgb(244,244,244);
+    }
+    
+    #innerNav{
+        position: relative;
+        top:8px; 
+        right:20px;
+    }
+    
+    #userPoints{
+        width:60px;
+        text-align: center;
+        z-index: 2;
+        font-size: 32px;
+        margin: auto;
+        position: absolute;
+        top:-18px;
+        left:50%;
+        border:none;
+        border-radius: 25% / 50%;
+        color:white;
+        font-weight: bold;
+        background-color: rgb(140, 140, 140);
+        padding:12px;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        color: rgb(120,120,120);
+    }
+
+    @media only screen and (max-width: 750px)
+    {
+        #leftMenu button
+        {
+    
+            text-align: center;
+            font-size: 2vw;
+            max-width: 15vw;
+            position: relative;
+            right: 2.5vw;
+            margin: 0.5vw;
+            padding: 2vw;
+            border: 0px;
+        }
+
+        .another
+        {
+            font-size: 2vw;
+            max-width: 15vw;
+            margin: 0.5vw !important;
+            padding: 2vw !important;
+            position: relative !important;
+            right: 7vw;
+        }
+    
+        #logout
+        {
+            position:absolute !important;
+            top: -11px !important;
+            max-width: 10vw !important;
+            font-size: 2vw !important;
+            margin: 0.5vw;
+            padding: 3.1vw!important;
+            right: -4vw !important;
+            line-height: 0;
+            text-align: center;
+        }
+
+        #userPoints
+        {
+            width:6vw;
+            font-size:3vw;
+            margin: 0.5vw !important;
+            padding: 2vw;
+            position: absolute;
+            left: 50vw;
+            top: -18px;
+            border-radius: 45% / 75%;
+        }
+    }
+
+    @media only screen and (max-width: 620px)
+{
+    input
+    {
+        font-size: 5vw;
+        position: relative;
+        text-align: center;
+        width: 80vw;
+        border-radius: 0px;
+        height: 3vw;
+    }
+
+    button
+    {
+        font-size: 22px;
+        box-shadow: 0 0 0 0 white;
+    }
+
+    #navbar
+    {
+        box-shadow: 0 0 0 0 white;
+        border-bottom: 0px;
+    }
+
+    form
+    {
+        position: absolute;
+        top:10px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        z-index: 2 !important;
+    }
+
+    form .utility
+    {
+        width: 50%;
+    }
+
+    .special
+    {
+        position: absolute;
+        top: 132px;
+        right: 4vw;
+        z-index: 3 !important;
+    }
+
+    #registerbutton
+    {
+        position: relative !important;
+        top:115px;  
+        right:6vw;
+    }
+
+    #leftMenu button
+    {
+
+        text-align: center;
+        font-size: 3vw;
+        max-width: 14vw;
+        position: relative;
+        right: 2.5vw;
+        margin: 0.5vw;
+        padding: 1vw;
+        border: 0px;
+    }
+
+    #userPoints
+    {
+        width:6vw;
+        font-size:3vw;
+        margin: 0.5vw !important;
+        padding: 2vw;
+        position: absolute;
+        left: 55vw;
+    }
+
+    .another
+    {
+        font-size: 3vw;
+        max-width: 16vw;
+        margin: 0.5vw !important;
+        padding: 1vw !important;
+        position: relative !important;
+        right:12vw;
+    }
+
+    #logout
+    {
+        position:absolute !important;
+        top: -11px !important;
+        max-width: 14vw !important;
+        font-size: 3vw !important;
+        margin: 0.5vw;
+        padding: 2.6vw!important;
+        right: -3vw !important;
+        padding-bottom: 3vw !important;
+        line-height: 0;
+
+    }
+
+}
+
+@media only screen and (max-width: 575px)
+{
+    #registerbutton
+    {
+        top:110px;
+        right: 4.5vw;
+    }
+}
+
+@media only screen and (max-width: 460px)
+{
+    #registerbutton
+    {
+        top:105px;
+        right: 3vw;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+        #leftMenu button
+    {
+
+        text-align: center;
+        font-size: 3vw;
+        max-width: 14vw;
+        position: relative;
+        right: 2.5vw;
+        margin: 0.5vw;
+        padding: 1vw;
+        border: 0px;
+    }
+
+    #userPoints
+    {
+        width:6vw;
+        font-size:3vw;
+        margin: 0.5vw !important;
+        padding: 2vw;
+        position: absolute;
+        left: 57vw;
+    }
+
+    .another
+    {
+        font-size: 3vw;
+        max-width: 16vw;
+        margin: 0.5vw !important;
+        padding: 1vw !important;
+        position: relative !important;
+        right:12vw;
+    }
+
+    #logout
+    {
+        position:absolute !important;
+        top: -11px !important;
+        max-width: 14vw !important;
+        font-size: 3vw !important;
+        margin: 0.5vw;
+        padding: 2.6vw!important;
+        right: -3vw !important;
+        padding-bottom: 3vw !important;
+        line-height: 0;
+
+    }
+
+    #registerbutton
+    {
+        top:103px;
+        right: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    #registerbutton
+    {
+        top:101px;
+        left: 3vw;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    #registerbutton
+    {
+        top:99px;
+        left: 5vw;
+    }
+}
+

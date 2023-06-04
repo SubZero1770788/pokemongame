@@ -1,0 +1,18 @@
+<section id="allItems">
+    <section id="inner">
+        <ul *ngFor="let it of items; let index = index">
+            <li>
+                <img src="{{it.photoUrl}}" alt="">
+                <section class="itemData">
+                    <b>{{it.name}} - Price: {{it.price}}</b>
+                    <section>
+                        {{it.details}}
+                    </section>
+                        Amount:<input type="number" inputmode="none" [(ngModel)]="shop[index].values"><br>
+                        Total: <i *ngIf="shop[index].values">{{shop[index].values*it.price}}</i>
+                        <button [disabled]="!shop[index].values" (click)="buyItem(index+1, shop[index].values)">Buy now</button>
+                </section>
+            </li>
+        </ul>
+    </section>
+</section>

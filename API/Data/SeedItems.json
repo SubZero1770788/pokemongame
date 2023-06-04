@@ -1,0 +1,51 @@
+[
+    {
+        "Id": 1,
+        "PhotoUrl": "../../assets/pokeball.webp",
+        "Name": "Pokeball",
+        "Price": 1,
+        "Details": "Help catch pokemon! Normal catch rate"
+    },
+    {
+        "Id": 2,
+        "PhotoUrl": "../../assets/greatball.jpg",
+        "Name": "Greatball",
+        "Price": 3,
+        "Details": "Help catch pokemon! Even better chance"
+    },
+    {
+        "Id": 3,
+        "PhotoUrl": "../../assets/ultraball.jpg",
+        "Name": "Ultraball",
+        "Price": 7,
+        "Details": "Help catch pokemon! The best of its class"
+    },
+    {
+        "Id": 4,
+        "PhotoUrl": "../../assets/masterball.jpg",
+        "Name": "Masterball",
+        "Price": 80,
+        "Details": "Help catch pokemon! It is superb indeed"
+    },
+    {
+        "Id": 5,
+        "PhotoUrl": "../../assets/potion.png",
+        "Name": "Potion",
+        "Price": 1,
+        "Details": "Heal your pokemon! Restores little HP"
+    },
+    {
+        "Id": 6,
+        "PhotoUrl": "../../assets/super potion.jpg",
+        "Name": "Super Potion",
+        "Price": 3,
+        "Details": "Heal your pokemon! Restores more HP"
+    },
+    {
+        "Id": 7,
+        "PhotoUrl": "../../assets/hyper potion.jpg",
+        "Name": "Hyper Potion",
+        "Price": 7,
+        "Details": "Heal your pokemon! Restores the most HP"
+    }
+]

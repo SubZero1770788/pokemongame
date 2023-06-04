@@ -1,0 +1,18 @@
+<section *ngIf="!this._shopS.itemChosen">
+        <div *ngFor="let u of userItems; let i = index">
+            <div class="proper">
+                <div class="itemdata">
+                    {{u.name}} <br>
+                    Amount: {{u.amount}}
+                </div>
+                <button (click)="useItem(i)">
+                    <img src="{{userItems![i].photoUrl}}" alt="">
+                </button>
+            </div>
+        </div>
+</section>
+<section *ngIf="this._shopS.itemChosen">
+
+</section>
+
+

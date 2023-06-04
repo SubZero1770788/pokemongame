@@ -1,0 +1,12 @@
+<ul>
+    <section id="users">
+        <li *ngFor="let u of users; let i = index">
+            <b>{{u.userName}}</b>  Points: {{u.points}}  <b id="level">Level: {{u.level}}</b>
+        </li>
+    </section>
+</ul>
+<section id="buttons">
+    <button (click)="loadUsers(false)" id="danger" [disabled]="pageNumber == 1">Back</button>
+    <button id="pageNum">{{pageNumber}}</button>
+    <button (click)="loadUsers(true)" id="utility" [disabled]="currentPageSize">Next</button>
+</section>

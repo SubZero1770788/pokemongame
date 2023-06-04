@@ -1,0 +1,42 @@
+[
+    {
+        "Id":1,
+        "IneffectiveId": 7,
+        "IneffectiveTypeId": 1
+    },
+    {
+        "Id":2,
+        "IneffectiveId": 1,
+        "IneffectiveTypeId": 5
+    },
+    {
+        "Id":3,
+        "IneffectiveId": 12,
+        "IneffectiveTypeId": 8
+    },
+    {
+        "Id":4,
+        "IneffectiveId": 17,
+        "IneffectiveTypeId": 9
+    },
+    {
+        "Id":5,
+        "IneffectiveId": 11,
+        "IneffectiveTypeId": 9
+    },
+    {
+        "Id":6,
+        "IneffectiveId": 13,
+        "IneffectiveTypeId": 10
+    },
+    {
+        "Id":7,
+        "IneffectiveId": 6,
+        "IneffectiveTypeId": 14
+    },
+    {
+        "Id":8,
+        "IneffectiveId": 9,
+        "IneffectiveTypeId": 17
+    }
+]

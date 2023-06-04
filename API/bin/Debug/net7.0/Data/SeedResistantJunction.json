@@ -1,0 +1,307 @@
+[
+    {
+        "Id":1,
+        "ResistantId": 1,
+        "ResistantTypeId": 12
+    },
+    {
+        "Id":2,
+        "ResistantId": 1,
+        "ResistantTypeId": 18
+    },
+    {
+        "Id":3,
+        "ResistantId": 2,
+        "ResistantTypeId": 3
+    },
+    {
+        "Id":4,
+        "ResistantId": 2,
+        "ResistantTypeId": 2
+    },
+    {
+        "Id":5,
+        "ResistantId": 2,
+        "ResistantTypeId": 15
+    },
+    {
+        "Id":6,
+        "ResistantId": 2,
+        "ResistantTypeId": 8
+    },
+    {
+        "Id":7,
+        "ResistantId": 3,
+        "ResistantTypeId": 3
+    },
+    {
+        "Id":8,
+        "ResistantId": 3,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":9,
+        "ResistantId": 3,
+        "ResistantTypeId": 15
+    },
+    {
+        "Id":10,
+        "ResistantId": 3,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":11,
+        "ResistantId": 3,
+        "ResistantTypeId": 8
+    },
+    {
+        "Id":12,
+        "ResistantId": 3,
+        "ResistantTypeId": 14
+    },
+    {
+        "Id":13,
+        "ResistantId": 4,
+        "ResistantTypeId": 2
+    },
+    {
+        "Id":14,
+        "ResistantId": 4,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":15,
+        "ResistantId": 4,
+        "ResistantTypeId": 7
+    },
+    {
+        "Id":16,
+        "ResistantId": 4,
+        "ResistantTypeId": 1
+    },
+    {
+        "Id":17,
+        "ResistantId": 5,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":18,
+        "ResistantId": 5,
+        "ResistantTypeId": 11
+    },
+    {
+        "Id":19,
+        "ResistantId": 5,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":20,
+        "ResistantId": 6,
+        "ResistantTypeId": 2
+    },
+    {
+        "Id":21,
+        "ResistantId": 6,
+        "ResistantTypeId": 3
+    },
+    {
+        "Id":22,
+        "ResistantId": 6,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":23,
+        "ResistantId": 6,
+        "ResistantTypeId": 6
+    },
+    {
+        "Id":24,
+        "ResistantId": 7,
+        "ResistantTypeId": 7
+    },
+    {
+        "Id":25,
+        "ResistantId": 7,
+        "ResistantTypeId": 5
+    },
+    {
+        "Id":26,
+        "ResistantId": 7,
+        "ResistantTypeId": 8
+    },
+    {
+        "Id":27,
+        "ResistantId": 8,
+        "ResistantTypeId": 17
+    },
+    {
+        "Id":28,
+        "ResistantId": 8,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":29,
+        "ResistantId": 8,
+        "ResistantTypeId": 15
+    },
+    {
+        "Id":30,
+        "ResistantId": 8,
+        "ResistantTypeId": 5
+    },
+    {
+        "Id":31,
+        "ResistantId": 8,
+        "ResistantTypeId": 13
+    },
+    {
+        "Id":32,
+        "ResistantId": 8,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":33,
+        "ResistantId": 8,
+        "ResistantTypeId": 18
+    },
+    {
+        "Id":34,
+        "ResistantId": 8,
+        "ResistantTypeId": 6
+    },
+    {
+        "Id":35,
+        "ResistantId": 8,
+        "ResistantTypeId": 8
+    },
+    {
+        "Id":36,
+        "ResistantId": 8,
+        "ResistantTypeId": 14
+    },
+    {
+        "Id":37,
+        "ResistantId": 9,
+        "ResistantTypeId": 12
+    },
+    {
+        "Id":38,
+        "ResistantId": 9,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":39,
+        "ResistantId": 10,
+        "ResistantTypeId": 9
+    },
+    {
+        "Id":40,
+        "ResistantId": 10,
+        "ResistantTypeId": 10
+    },
+    {
+        "Id":41,
+        "ResistantId": 11,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":42,
+        "ResistantId": 11,
+        "ResistantTypeId": 18
+    },
+    {
+        "Id":43,
+        "ResistantId": 11,
+        "ResistantTypeId": 10
+    },
+    {
+        "Id":44,
+        "ResistantId": 12,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":45,
+        "ResistantId": 12,
+        "ResistantTypeId": 11
+    },
+    {
+        "Id":46,
+        "ResistantId": 12,
+        "ResistantTypeId": 12
+    },
+    {
+        "Id":47,
+        "ResistantId": 12,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":48,
+        "ResistantId": 12,
+        "ResistantTypeId": 14
+    },
+    {
+        "Id":49,
+        "ResistantId": 13,
+        "ResistantTypeId": 11
+    },
+    {
+        "Id":50,
+        "ResistantId": 13,
+        "ResistantTypeId": 13
+    },
+    {
+        "Id":51,
+        "ResistantId": 14,
+        "ResistantTypeId": 11
+    },
+    {
+        "Id":52,
+        "ResistantId": 14,
+        "ResistantTypeId": 16
+    },
+    {
+        "Id":53,
+        "ResistantId": 14,
+        "ResistantTypeId": 10
+    },
+    {
+        "Id":54,
+        "ResistantId": 15,
+        "ResistantTypeId": 15
+    },
+    {
+        "Id":55,
+        "ResistantId": 16,
+        "ResistantTypeId": 4
+    },
+    {
+        "Id":56,
+        "ResistantId": 16,
+        "ResistantTypeId": 11
+    },
+    {
+        "Id":57,
+        "ResistantId": 16,
+        "ResistantTypeId": 1
+    },
+    {
+        "Id":58,
+        "ResistantId": 18,
+        "ResistantTypeId": 17
+    },
+    {
+        "Id":59,
+        "ResistantId": 18,
+        "ResistantTypeId": 3
+    },
+    {
+        "Id":60,
+        "ResistantId": 18,
+        "ResistantTypeId": 12
+    },
+    {
+        "Id":61,
+        "ResistantId": 18,
+        "ResistantTypeId": 5
+    }
+]

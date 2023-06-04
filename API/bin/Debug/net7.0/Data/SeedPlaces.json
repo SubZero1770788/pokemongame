@@ -1,0 +1,32 @@
+[
+    {
+        "Id":1,
+        "Name":"Viridian Forest",
+        "PhotoUrl":"../../assets/viridian forest.png"
+    },
+    {
+        "Id":2,
+        "Name":"Mt. Moon",
+        "PhotoUrl":"../../assets/mtMoon.png"
+    },
+    {
+        "Id":3,
+        "Name":"Victory Road",
+        "PhotoUrl":"../../assets/victoryRoad.png"
+    },
+    {
+        "Id":4,
+        "Name":"Power Plant",
+        "PhotoUrl":"../../assets/power plant.png"
+    },
+    {
+        "Id":5,
+        "Name":"Seafoam Islands",
+        "PhotoUrl":"../../assets/seafoamIslands.png"
+    },
+    {
+        "Id":6,
+        "Name":"Safari Zone",
+        "PhotoUrl":"../../assets/safari.png"
+    }
+]
