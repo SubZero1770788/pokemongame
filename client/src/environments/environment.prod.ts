@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: "https://pokemonappfinal.fly.dev/"
+  baseUrl: "https://pokemonappfinal.fly.dev/api/"
 };

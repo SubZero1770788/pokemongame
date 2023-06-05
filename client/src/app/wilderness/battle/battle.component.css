@@ -532,6 +532,7 @@ img
     .information
     {
         font-size:10px;
+        width: 75vw;
         line-height: 4;
     }
 }
@@ -693,8 +694,8 @@ img
 
     .information
     {
-        font-size: 18px;
-        line-height: 2;
+        font-size: 6px;
+        line-height: 8;
     }
 }
 

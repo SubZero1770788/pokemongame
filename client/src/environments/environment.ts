@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "https://pokemonappfinal.fly.dev/"
+  baseUrl: "https://localhost:7215/api/"
 };
 
 /*

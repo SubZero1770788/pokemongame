@@ -135,6 +135,7 @@ button:active
     {
         width:10px;
         height: 9px; 
+        font-size: 10px;
     }
 }
 
@@ -172,6 +173,7 @@ button:active
     {
         width:8px;
         height: 7px; 
+        font-size: 7px;
     }
 }
 
@@ -213,6 +215,7 @@ button:active
     {
         width:8px;
         height: 5px; 
+        font-size: 5px;
     }
 }
 
@@ -262,6 +265,7 @@ button:active
     {
         width: 6px;
         height: 5px; 
+        font-size: 5px;
     }
 }
 
@@ -295,7 +299,7 @@ button:active
     {
         width:10px;
         height: 6px;
-        
+        font-size: 5px;
     }
 
     #allItems
@@ -315,6 +319,7 @@ button:active
     {
         width: 6px;
         height: 5px; 
+        font-size: 5px;
     }
 
     .itemData

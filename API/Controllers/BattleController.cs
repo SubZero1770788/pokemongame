@@ -140,7 +140,7 @@ namespace API.Controllers
             currentAttacks.Add(userPokemon.Attack2Id);
             currentAttacks.Add(userPokemon.Attack3Id);
             currentAttacks.Add(userPokemon.Attack4Id);
-            var PokemonAttacksJunction = _data.PokemonAttacks.Where(pokatt => pokatt.PokemonsId == pokemon.Id).AsEnumerable();
+            var PokemonAttacksJunction = await _data.PokemonAttacks.Where(pokatt => pokatt.PokemonsId == pokemon.Id).ToListAsync();
             var message = new messageDto
             {
                 message = "Your pokemon already knows this attack !!",
@@ -343,7 +343,7 @@ namespace API.Controllers
 
         private async Task<ActionResult<messageDto>> getAttack(PokemonUser p, messageDto m)
         {
-            var AttacksJunction = _data.PokemonAttacks.Where(pokatt => pokatt.PokemonsId == p.PokemonId).AsEnumerable();
+            var AttacksJunction = await _data.PokemonAttacks.Where(pokatt => pokatt.PokemonsId == p.PokemonId).ToListAsync();
 
             foreach (PokemonAttacks a in AttacksJunction)
             {
@@ -384,11 +384,13 @@ namespace API.Controllers
                     PokemonId = nextPokemon.Id,
                     UserId = p.UserId,
                     Pokemon = nextPokemon,
+                    IsInTeam = true,
                 };
                 _data.PokemonUsers.Remove(p);
                 await _data.SaveChangesAsync();
                 evolution.Id--;
                 _data.PokemonUsers.Add(evolution);
+                await _data.SaveChangesAsync();
             }
         }
 

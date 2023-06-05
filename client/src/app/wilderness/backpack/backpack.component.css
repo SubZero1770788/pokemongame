@@ -298,8 +298,8 @@ img
         height: 225px;
         position: initial;
         margin: auto;
-        margin-top: 50px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .itemdata
@@ -340,7 +340,7 @@ img
         grid-template-rows: 90px 90px;
         grid-template-columns: 90px 90px 90px;
         width: 310px;
-        height: 220px;
+        height: 190px;
         position: initial;
         margin: auto;
         margin-top:50px;

@@ -3,6 +3,7 @@ import { Component, OnInit} from '@angular/core';
 import { ShopService } from '../services/shop.service';
 import { Item } from '../TypescriptTypes/Item';
 import { PokemonsService } from '../services/pokemons.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-shop',
@@ -10,6 +11,7 @@ import { PokemonsService } from '../services/pokemons.service';
   styleUrls: ['./shop.component.css']
 })
 export class ShopComponent implements OnInit {
+  baseUrl = environment.baseUrl
   items: any;
   shop: any = [{key: 1, values: ''}];
   valid: boolean = false;
@@ -24,7 +26,7 @@ export class ShopComponent implements OnInit {
 
   loadItems()
   {
-    this.http.get("https://localhost:7215/api/items").subscribe({
+    this.http.get(this.baseUrl + "items").subscribe({
       next: r => this.items = r,
       error: e => console.log(e),
       complete: () => this.saveItems()

@@ -27,14 +27,14 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<PagedList<Pokemon>>> getPokemon([FromQuery]UserParams userParams)
+        public async Task<ActionResult<PagedList<Pokemon>>> getPokemon([FromQuery] UserParams userParams)
         {
             var pokemon = _data.Pokemons.AsQueryable();
             var actualPokemon = await PagedList<Pokemon>.CreateAsync(pokemon, userParams.PageNumber, userParams.PageSize);
 
-            Response.AddPaginationHeader(new PaginationHeader( 
-                actualPokemon.CurrentPage, 
-                actualPokemon.PageSize, 
+            Response.AddPaginationHeader(new PaginationHeader(
+                actualPokemon.CurrentPage,
+                actualPokemon.PageSize,
                 actualPokemon.TotalCount,
                 actualPokemon.TotalPages));
 
@@ -81,12 +81,12 @@ namespace API.Controllers
             List<int> types = new List<int>();
 
             var pokemonTypes = await _data.PokemonPokemonTypes.Where(pt => pt.PokemonId == foundPokemon.Id).ToListAsync();
-            foreach(PokemonPokemonType ppt in pokemonTypes)
+            foreach (PokemonPokemonType ppt in pokemonTypes)
             {
                 types.Add(ppt.PokemonTypeId);
             }
 
-            k = r.Next(level-4, level);
+            k = r.Next(level - 4, level);
 
             var randomPokemonAttack = await getAttacks(foundPokemon, k);
 
@@ -126,7 +126,7 @@ namespace API.Controllers
                 PokemonType1Name = _data.PokemonTypes.Where(pt => pt.Id == types[0]).First().Type,
             };
 
-            if(types.Count > 1)
+            if (types.Count > 1)
             {
                 pokemonDto.PokemonType2Name = _data.PokemonTypes.Where(pt => pt.Id == types[1]).First().Type;
             }
@@ -143,17 +143,17 @@ namespace API.Controllers
             var userName = User.FindFirst(ClaimTypes.NameIdentifier)!.Value;
             var user = _data.Users.Where(un => un.UserName == userName).First();
 
-            var itemUsers = _data.ItemUsers.AsEnumerable();
-            var currentItem = itemUsers.Where(ci => ci.UserId == user.Id && ci.ItemId == ItemBuyDto.Id).First();
+            var currentItemUsers = await _data.ItemUsers.ToListAsync();
+            var currentItem = currentItemUsers.Where(ci => ci.UserId == user.Id && ci.ItemId == ItemBuyDto.Id).First();
             currentItem.Amount--;
-            
-            var usersPokemon = _data.PokemonUsers.Where(pok => pok.UserId == user.Id).AsEnumerable();
-            var pokemonInTeam = usersPokemon.Where(up => up.IsInTeam == true).AsEnumerable();
 
-            foreach(PokemonUser pu in usersPokemon)
+            var usersPokemon = await _data.PokemonUsers.Where(pok => pok.UserId == user.Id).ToListAsync();
+            var pokemonInTeam = usersPokemon.Where(up => up.IsInTeam == true).ToList();
+
+            foreach (PokemonUser pu in usersPokemon)
             {
                 var pokemonHeal = await _data.Pokemons.Where(pok => pok.Id == pu.PokemonId).FirstAsync();
-                pu.HP = pokemonHeal.HP*pu.Level;
+                pu.HP = pokemonHeal.HP * pu.Level;
             }
 
             if (currentItem.Amount == 0)
@@ -180,9 +180,9 @@ namespace API.Controllers
             var pokemon = await _data.Pokemons.Where(p => p.Id == currentEncounter.PokemonId).FirstAsync();
             var random = new Random();
 
-            foreach(PokemonUser pu in usersPokemon)
+            foreach (PokemonUser pu in usersPokemon)
             {
-                if(pu.PokemonId == pokemon.Id)
+                if (pu.PokemonId == pokemon.Id)
                 {
                     var errorMes = new messageDto
                     {
@@ -199,7 +199,7 @@ namespace API.Controllers
                 Id = random.Next(),
                 PokemonId = currentEncounter.PokemonId,
                 Name = pokemon.Name,
-                HP = pokemon.HP*currentEncounter.Level,
+                HP = pokemon.HP * currentEncounter.Level,
                 Attack = currentEncounter.Attack,
                 Defense = currentEncounter.Defense,
                 SpecialAttack = currentEncounter.SpecialAttack,
@@ -213,7 +213,7 @@ namespace API.Controllers
                 IsInTeam = false
             };
 
-            if(pokemonInTeam.Count() < 6)
+            if (pokemonInTeam.Count() < 6)
             {
                 pokemonUser.IsInTeam = true;
             }
@@ -239,47 +239,31 @@ namespace API.Controllers
 
             List<string> pokemonTypes = new List<string>();
             List<string> pokemonAttacks = new List<string>();
-            var pokemonpokemontypes = _data.PokemonPokemonTypes.Where(ppt => ppt.PokemonId == pokemon.Id).AsEnumerable();
-            var nextPokemon = await _data.Pokemons.Where(pok => pok.Id == pokemon.Id + 1).FirstAsync();
+            var searchedpokemontypes = await _data.PokemonPokemonTypes.Where(ppt => ppt.PokemonId == pokemon.Id).ToListAsync();
+            int nextId = pokemon.Id + 1;
+            if(pokemon.Id == 151)
+            {
+                nextId--;
+            }
+            var nextPokemon = await _data.Pokemons.Where(pok => pok.Id == nextId).FirstAsync();
             int level = 0;
-            if(pokemon.Level >= 1 && nextPokemon.Level > 1)
+            if (pokemon.Level >= 1 && nextPokemon.Level > 1)
             {
                 level = nextPokemon.Level;
             }
-            foreach (PokemonPokemonType pt in pokemonpokemontypes)
+            foreach (PokemonPokemonType pt in searchedpokemontypes)
             {
                 var type = await _data.PokemonTypes.Where(ppt => ppt.Id == pt.PokemonTypeId).FirstAsync();
                 pokemonTypes.Add(type.Type);
             }
 
-            var Attacks = _data.PokemonAttacks.Where(patt => patt.PokemonsId == pokemon.Id).AsEnumerable();
+            var Attacks = await _data.PokemonAttacks.Where(patt => patt.PokemonsId == pokemon.Id).ToListAsync();
             foreach (PokemonAttacks a in Attacks)
             {
                 var Attack = await _data.Attacks.Where(att => att.Id == a.AttacksId).FirstAsync();
                 pokemonAttacks.Add(Attack.AttackName);
             }
 
-            if (pokemonTypes.Count() > 1)
-            {
-                var newPokemon2 = new PokedexPokemonDto
-                {
-                    Id = pokemon.Id,
-                    Name = pokemon.Name,
-                    Level = level,
-                    HP = pokemon.HP,
-                    Attack = pokemon.Attack,
-                    Defense = pokemon.Defense,
-                    SpecialAttack = pokemon.SpecialAttack,
-                    SpecialDefense = pokemon.SpecialDefense,
-                    Speed = pokemon.Speed,
-                    PhotoUrl = pokemon.PhotoUrl,
-                    WildPlace = WildPlace.Name,
-                    PokemonType1 = pokemonTypes[0],
-                    PokemonType2 = pokemonTypes[1],
-                    Attacks = pokemonAttacks,
-                };
-                return newPokemon2;
-            }
             var newPokemon = new PokedexPokemonDto
             {
                 Id = pokemon.Id,
@@ -296,6 +280,12 @@ namespace API.Controllers
                 PokemonType1 = pokemonTypes[0],
                 Attacks = pokemonAttacks,
             };
+
+            if (pokemonTypes.Count() > 1)
+            {
+                newPokemon.PokemonType2 = pokemonTypes[1];
+            }
+
             return newPokemon;
         }
 
@@ -329,8 +319,7 @@ namespace API.Controllers
             var pokemon = await _data.Pokemons.Where(pk => pk.Id == pokemonId).FirstAsync();
             int chance = 2;
 
-            var items = _data.Items.AsEnumerable();
-            var item = items.Where(it => it.Id == ci.ItemId).First();
+            var item = await _data.Items.Where(it => it.Id == ci.ItemId).FirstAsync();
 
             switch (item.Name)
             {
