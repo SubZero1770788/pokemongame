@@ -54,4 +54,4 @@ To do:
 
 
 ## Contact
-Created by [Dawid](https://dawid-dev.fly.dev/) - feel free to contact me!
+Created by [Dawid](https://dawid-dev-site.fly.dev/) - feel free to contact me!
