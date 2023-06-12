@@ -13,6 +13,8 @@
 
 
 ## General Information
+ In order to register Choose username between 5 and 12 characters. The password should be strong (small/big letters, special characters and numbers). 
+ For example 'Pa$$w0rd'
  I've undertook creation of this project in order to learn more about creating API and developmnet in technologies listed below
 
 
